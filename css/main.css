@@ -6,6 +6,9 @@ body {
 .navbarp .navbarp__div {
   background-color: rgb(210, 105, 30);
 }
+.navbarp .navbarp__div .logo {
+  width: 4rem;
+}
 .navbarp .navbarp__div .navbarp__div__div .navbarp__div__div__ul .navbarp__div__div__ul__li .navbarp__div__div__ul__li--a {
   text-decoration: none;
   color: rgb(253, 245, 2);
@@ -109,26 +112,34 @@ body {
 
 footer {
   background-color: rgb(210, 105, 30);
-  padding: 0.5rem 0.5rem;
+  padding: 0rem 0.5rem;
   font-size: 18px;
+  margin: 0;
 }
 footer .divInformacion h3 {
   color: rgb(253, 245, 2);
+  margin: 0;
+}
+footer .divInformacion p {
+  margin: 0;
 }
 footer .divDirecciones {
   text-align: right;
 }
 footer .divDirecciones h3 {
   color: rgb(253, 245, 2);
+  margin: 0;
 }
 footer .divDirecciones ul {
   list-style-type: none;
+  margin: 0;
 }
 footer .divEnlaces {
   text-align: right;
 }
 footer .divEnlaces ul {
   list-style-type: none;
+  margin: 0;
 }
 footer .divEnlaces ul li a {
   text-decoration: none;

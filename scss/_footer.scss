@@ -1,25 +1,28 @@
 footer {
-    background-color: rgb(210, 105, 30); padding:  0.5rem 0.5rem;
+    background-color: rgb(210, 105, 30); padding:  0rem 0.5rem;
     font-size: 18px;
+    margin: 0;
     .divInformacion { 
         h3 {
             color: rgb(253, 245, 2);
+            margin: 0;
         }
+        p {margin: 0;}
     }
     .divDirecciones {
         text-align: right;
         h3 {
-            color: rgb(253, 245, 2);
+            color: rgb(253, 245, 2); margin: 0;
         }
         ul {
-            list-style-type: none;
+            list-style-type: none; margin: 0;
         }
     }
     .divEnlaces {
         text-align: right;
         ul {
             list-style-type: none;
-           
+            margin: 0;
             li {
                 a {
                     text-decoration: none;                     
