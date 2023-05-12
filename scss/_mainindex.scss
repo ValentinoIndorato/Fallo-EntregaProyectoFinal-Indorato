@@ -1,0 +1,11 @@
+.mainIndex {
+    display: flex;
+    align-items: center;
+    .heladoImg {
+        width: 100%;
+    }
+    .videoIndex {
+        width: 75%;
+        justify-content: center;
+    }
+}
