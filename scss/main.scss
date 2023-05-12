@@ -13,13 +13,15 @@ body {
                         text-decoration: none;
                         color: rgb(253, 245, 2);
                         font-size: 18px;
+                        &:hover { background-color: rgb(253, 245, 2); color:rgb(210, 105, 30) }
                     }
                 }
             }
         }
     }
 }
+
+
 @import "_mainindex.scss";
 @import "_footer.scss";
 @import "_responsive.scss";
-
