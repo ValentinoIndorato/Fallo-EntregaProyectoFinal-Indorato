@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(253, 245, 2);
+    font-family: "Cormorant Garamond", serif;
+}
+.navbarp { 
+    .navbarp__div {
+        background-color: rgb(210, 105, 30);
+        
+        .navbarp__div__div { 
+            .navbarp__div__div__ul { 
+                .navbarp__div__div__ul__li { 
+                           
+                        .navbarp__div__div__ul__li--a {
+                        text-decoration: none;
+                        color: rgb(253, 245, 2);
+                        font-size: 18px
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+@import "_responsive.scss";
