@@ -34,8 +34,40 @@ body {
           justify-content: center;
 }
 
+.cardPromociones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.cardPromociones div {
+  width: 20rem;
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 18px;
+}
+.cardPromociones div img {
+  width: 100%;
+}
+.cardPromociones div h5 {
+  color: chocolate;
+}
+.cardPromociones div h5:hover {
+  color: rgb(253, 245, 2);
+}
+.cardPromociones div:hover {
+  background-color: chocolate;
+  color: rgb(253, 245, 2);
+  -webkit-text-stroke: 0.07rem rgb(253, 245, 2);
+}
+
 footer {
   background-color: rgb(210, 105, 30);
+  padding: 0.5rem 0.5rem;
   font-size: 18px;
 }
 footer .divInformacion h3 {
