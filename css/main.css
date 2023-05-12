@@ -12,6 +12,33 @@ body {
   font-size: 18px;
 }
 
+footer {
+  background-color: rgb(210, 105, 30);
+  font-size: 18px;
+}
+footer .divInformacion h3 {
+  color: rgb(253, 245, 2);
+}
+footer .divDirecciones {
+  text-align: right;
+}
+footer .divDirecciones h3 {
+  color: rgb(253, 245, 2);
+}
+footer .divDirecciones ul {
+  list-style-type: none;
+}
+footer .divEnlaces {
+  text-align: right;
+}
+footer .divEnlaces ul {
+  list-style-type: none;
+}
+footer .divEnlaces ul li a {
+  text-decoration: none;
+  color: rgb(253, 245, 2);
+}
+
 @media screen and (max-width: 450px) {
   body {
     background-color: black;

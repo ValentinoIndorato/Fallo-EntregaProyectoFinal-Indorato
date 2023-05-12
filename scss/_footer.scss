@@ -1,0 +1,31 @@
+footer {
+    background-color: rgb(210, 105, 30);
+    font-size: 18px;
+    .divInformacion {
+        h3 {
+            color: rgb(253, 245, 2);
+        }
+    }
+    .divDirecciones {
+        text-align: right;
+        h3 {
+            color: rgb(253, 245, 2);
+        }
+        ul {
+            list-style-type: none;
+        }
+    }
+    .divEnlaces {
+        text-align: right;
+        ul {
+            list-style-type: none;
+           
+            li {
+                a {
+                    text-decoration: none;                     
+                    color: rgb(253, 245, 2);
+                }
+            }
+        }
+    }
+}
