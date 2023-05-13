@@ -7,7 +7,7 @@ body {
     .navbarp__div {
         background-color: rgb(210, 105, 30);
         
-        .logo {width: 50px;}
+        .logo {width: 20rem ; height:20rem ;}
         .navbarp__div__div {
             .navbarp__div__div__ul {
                 .navbarp__div__div__ul__li {
@@ -23,7 +23,7 @@ body {
     }
 }
 
-
+.logoprueba {width: 20rem;}
 @import "_mainindex.scss";
 @import "_mainpromociones.scss";
 @import "_mainsabores.scss";
