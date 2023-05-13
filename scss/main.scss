@@ -23,7 +23,9 @@ body {
     }
 }
 
-.logoprueba {width: 20rem;}
+.logoprueba{ width: 0;}
+.letralogo {
+font-size: 5rem}
 @import "_mainindex.scss";
 @import "_mainpromociones.scss";
 @import "_mainsabores.scss";

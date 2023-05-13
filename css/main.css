@@ -7,7 +7,8 @@ body {
   background-color: rgb(210, 105, 30);
 }
 .navbarp .navbarp__div .logo {
-  width: 4rem;
+  width: 20rem;
+  height: 20rem;
 }
 .navbarp .navbarp__div .navbarp__div__div .navbarp__div__div__ul .navbarp__div__div__ul__li .navbarp__div__div__ul__li--a {
   text-decoration: none;
@@ -17,6 +18,14 @@ body {
 .navbarp .navbarp__div .navbarp__div__div .navbarp__div__div__ul .navbarp__div__div__ul__li .navbarp__div__div__ul__li--a:hover {
   background-color: rgb(253, 245, 2);
   color: rgb(210, 105, 30);
+}
+
+.logoprueba {
+  width: 0;
+}
+
+.letralogo {
+  font-size: 5rem;
 }
 
 .mainIndex {
