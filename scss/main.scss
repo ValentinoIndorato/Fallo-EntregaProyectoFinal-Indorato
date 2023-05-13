@@ -23,11 +23,12 @@ body {
     }
 }
 
-.logoprueba{ width: 0;}
+
 .letralogo {
-font-size: 5rem}
+font-size: 5rem; color:  rgb(253, 245, 2);}
 @import "_mainindex.scss";
 @import "_mainpromociones.scss";
 @import "_mainsabores.scss";
+@import "_mainproductos.scss";
 @import "_footer.scss";
 @import "_responsive.scss";
