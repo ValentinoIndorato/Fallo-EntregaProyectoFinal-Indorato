@@ -1,0 +1,28 @@
+.cafeteriaArticle { margin: 12rem 8rem; 
+    .cafeteria1 {display: inline-block;
+        background-color: aliceblue;
+        ul {
+            display: inline-block;
+            background-color: darkcyan;
+            list-style-type: none;
+            font-size: 18px;
+            width: 7.5rem;
+
+            .cafeteria1_ulTexto {
+                width: 10rem ; 
+                
+                .cafeteria1_liTexto {
+                    text-align: center;
+                    
+                    
+                }
+            }
+            .cafeteria_ulPrecio {
+                width: 5rem; 
+               
+                
+            }
+        }
+    }
+}
+
