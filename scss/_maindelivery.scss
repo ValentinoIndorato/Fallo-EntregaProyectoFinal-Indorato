@@ -1,6 +1,7 @@
 .DeliveryMain {
-    padding: 0 0 0 10rem;
+    padding:auto;
     margin: 11rem;
+    align-items: center;
     
     .deliverySection {
         width: 100%;
@@ -11,7 +12,7 @@
         font-size: 18px;
         
         .imgpedidosya {
-            width: 15rem;
+            width: 45%;
         }
     }
 }

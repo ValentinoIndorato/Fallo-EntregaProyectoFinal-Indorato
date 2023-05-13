@@ -123,19 +123,19 @@ body {
 
 .poductosGeneral {
   display: grid;
-  grid-template-columns: 5% 30% 30% 30% 5%;
+  grid-template-columns: 33.3% 33.3% 33.3%;
   grid-template-rows: -webkit-min-content -webkit-min-content;
   grid-template-rows: min-content min-content;
   gap: 0px 0px;
-  grid-template-areas: "... a b c ..." "... d e f ...";
+  grid-template-areas: " a b c " " d e f ";
 }
 .poductosGeneral .producto1 {
   grid-area: a;
 }
 .poductosGeneral .producto1 div {
   background-color: black;
-  padding: 1rem 0.5rem;
-  margin: 0.5rem 3rem 3rem 2rem;
+  padding: 0.5rem 0.5rem;
+  margin: 0.5rem 1rem 3rem 1rem;
 }
 .poductosGeneral .producto1 div .cardProducto1 {
   display: -webkit-box;
@@ -145,18 +145,19 @@ body {
       flex-wrap: wrap;
 }
 .poductosGeneral .producto1 div .cardProducto1 .cardProducto1__div {
-  padding: 2rem;
-  margin: 1rem;
+  padding: 1rem;
+  margin: 0rem;
 }
 .poductosGeneral .producto1 div .cardProducto1 .cardProducto1__div img {
   width: 10rem;
 }
 .poductosGeneral .producto1 div .cardProducto1 .cardProducto1__div h3 {
   color: rgb(253, 245, 2);
+  margin: 0;
 }
 .poductosGeneral .producto1 div p {
   background-color: aliceblue;
-  width: 70%;
+  width: 100%;
   text-align: center;
 }
 .poductosGeneral .productos2 .productos2__div {
@@ -168,37 +169,45 @@ body {
 }
 .poductosGeneral .productos2 .productos2__div .productos2__div__card {
   background-color: aliceblue;
-  width: 50rem;
+  width: 25rem;
   padding: 2rem;
   margin: 0.5rem;
+}
+.poductosGeneral .productos2 .productos2__div .productos2__div__card p {
+  font-size: 25px;
 }
 .poductosGeneral .productos2 .productos2__div .productos2__div__card .productos2__div__card__div {
   background-color: rgb(238, 126, 126);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 50rem;
+  width: 22rem;
 }
 .poductosGeneral .productos2 .productos2__div .productos2__div__card .productos2__div__card__div p {
   background-color: burlywood;
-  padding: 5rem 10rem;
-  margin: 0rem 5rem 0rem 0rem;
+  padding: 2.5rem 5rem;
+  margin: 0rem 1rem 0rem 0rem;
+  font-size: 25px;
 }
-.poductosGeneral .productos2 .productos2__div .productos2__div__card .productos2__div__card__div h3 {
+.poductosGeneral .productos2 .productos2__div .productos2__div__card .productos2__div__card__div .productos2__div__card__div__h3 {
   color: black;
-  margin: 5rem;
+  margin: auto;
+  padding: 0rem;
+  width: 5rem;
+  height: 2.5rem;
+  text-align: center;
+  background-color: rgb(173, 119, 47);
 }
 .poductosGeneral .productos2 .productos2__div h3 {
   background-color: antiquewhite;
-  width: 1rem;
-  padding: 5rem;
-  margin: 0.5rem;
+  width: 4.5rem;
+  padding: 6.5rem 0 6.5rem 0.15rem;
+  margin: auto;
 }
 .poductosGeneral .productos3 .productos3__div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0.5rem 1rem 1rem 1rem;
 }
 .poductosGeneral .productos3 .productos3__div p {
   background-color: brown;
@@ -210,15 +219,15 @@ body {
 }
 .poductosGeneral .productos3 .productos3__div .productos3__div__card .productos3__div__card_p_over {
   background-color: antiquewhite;
-  width: 40rem;
+  width: 20rem;
   height: 3rem;
   padding: 5rem;
   overflow: auto;
 }
 .poductosGeneral .productos3 .productos3__div .productos3__div__card .productos3__div__card_p {
   background-color: antiquewhite;
-  width: 40rem;
-  padding: 5rem;
+  width: 20rem;
+  padding: 1.5rem;
 }
 .poductosGeneral .productos3 .productos3__div .productos3__div__card h3 {
   background-color: black;
@@ -287,8 +296,11 @@ body {
 }
 
 .DeliveryMain {
-  padding: 0 0 0 10rem;
+  padding: auto;
   margin: 11rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .DeliveryMain .deliverySection {
   width: 100%;
@@ -299,7 +311,7 @@ body {
   font-size: 18px;
 }
 .DeliveryMain .deliverySection .imgpedidosya {
-  width: 15rem;
+  width: 45%;
 }
 
 footer {
@@ -338,13 +350,13 @@ footer .divEnlaces ul li a {
   color: rgb(253, 245, 2);
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 426px) {
   body {
-    background-color: black;
+    background-color: rgb(255, 251, 130);
   }
 }
 @media screen and (min-width: 992px) {
   body {
-    background-color: black;
+    background-color: rgb(253, 228, 2);
   }
 }
