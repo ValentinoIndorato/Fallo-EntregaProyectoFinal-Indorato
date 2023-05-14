@@ -313,6 +313,7 @@ body {
 .cafeteriaArticle .cafeteria1 {
   display: inline-block;
   background-color: aliceblue;
+  margin: auto;
 }
 .cafeteriaArticle .cafeteria1 ul {
   display: inline-block;
@@ -410,6 +411,65 @@ footer .divEnlaces ul li a {
   body .cardSabores section div p {
     margin: 0.5rem 0 0.5rem 0;
   }
+  body .productos3 .productos3__div p {
+    margin: 0 0 0.3rem 0;
+  }
+  body .productos3 .productos3__div .productos3__div__card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .productos3 .productos3__div .productos3__div__card .productos3__div__card_p_over {
+    margin: auto;
+    padding: 0rem;
+  }
+  body .productos3 .productos3__div .productos3__div__card .productos3__div__card_p {
+    width: 1rem;
+    margin: 0 0 0.1rem 0;
+    padding: 0.1rem;
+  }
+  body .productos3 .productos3__div .productos3__div__card h3 {
+    width: auto;
+    margin: auto;
+    padding: 1rem;
+  }
+  body .cafeteriaArticle {
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .cafeteriaArticle .cafeteria1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 1rem;
+    width: 30rem;
+  }
+  body .cafeteriaArticle .cafeteria1 ul {
+    padding: 1rem;
+    width: auto;
+  }
+  body .DeliveryMain {
+    margin: auto;
+  }
+  body .DeliveryMain h2 {
+    text-align: center;
+  }
+  body .DeliveryMain .deliverySection {
+    margin: 0;
+  }
 }
 @media screen and (min-width: 992px) {
   body {
@@ -424,6 +484,13 @@ footer .divEnlaces ul li a {
   body .cardSabores section div p {
     margin: 0.5rem 0 0.5rem 0;
   }
+  body .productosGeneral {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
   body .productosGeneral .producto1 {
     width: 100%;
     padding: 0;
@@ -431,12 +498,73 @@ footer .divEnlaces ul li a {
   }
   body .productosGeneral .producto1 div {
     background-color: black;
-    width: 80%;
+    width: 100%;
     padding: 0;
     margin: 0 0 0 0;
   }
   body .productosGeneral .producto1 div .cardProducto1 {
     padding: 0;
     margin: 0 0 0 0;
+  }
+  body .productosGeneral .productos2 .productos2__div .productos2__div__card {
+    width: 15rem;
+    padding: 2rem;
+    margin: 0.5rem;
+  }
+  body .productosGeneral .productos2 .productos2__div .productos2__div__card .productos2__div__card__div {
+    width: 8rem;
+    margin: auto;
+  }
+  body .productosGeneral .productos2 .productos2__div .productos2__div__card .productos2__div__card__div p {
+    padding: 0;
+    margin: 0rem 1rem 0rem 0rem;
+    height: 5rem;
+    font-size: 18px;
+    text-align: center;
+  }
+  body .productosGeneral .productos2 .productos2__div .productos2__div__card .productos2__div__card__div .productos2__div__card__div__h3 {
+    margin: auto;
+    padding: 0rem;
+    width: 4.5rem;
+    height: 2.5rem;
+    text-align: center;
+    font-size: 18px;
+  }
+  body .productosGeneral .productos2 .productos2__div .productos2__div__card h3 {
+    width: auto;
+    padding: 0rem 0 0rem 0rem;
+    margin: auto;
+  }
+  body .productosGeneral .productos3 .productos3__div .productos3__div__card .productos3__div__card_p_over {
+    margin: 0.5rem;
+  }
+  body .productosGeneral .productos3 .productos3__div .productos3__div__card .productos3__div__card_p {
+    margin: 0 0 0.5rem 0;
+  }
+  body .productosGeneral .productos3 .productos3__div .productos3__div__card h3 {
+    margin: 0.5rem;
+  }
+  body .cafeteriaArticle {
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .cafeteriaArticle .cafeteria1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 1rem;
+    width: 30rem;
+  }
+  body .cafeteriaArticle .cafeteria1 ul {
+    margin: 2rem;
   }
 }
