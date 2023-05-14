@@ -1,11 +1,17 @@
 .mainIndex {
-    display: flex;
-    align-items: center;
+    display: flex; justify-content: center; align-items: center;
+    
+    
     .heladoImg {
-        width: 100%;
+        width: 84%;  
+        
+        
     }
     .videoIndex {
-        width: 75%;
+        width: 100%;
         justify-content: center;
+        
+        
     }
 }
+.divmain{display: flex;  justify-content: center; align-items: center;}

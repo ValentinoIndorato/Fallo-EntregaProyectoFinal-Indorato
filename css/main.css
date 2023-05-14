@@ -29,18 +29,33 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 .mainIndex .heladoImg {
-  width: 100%;
+  width: 84%;
 }
 .mainIndex .videoIndex {
-  width: 75%;
+  width: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.divmain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .cardPromociones {
@@ -99,6 +114,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-size: 18px;
 }
 .cardSabores section h2 {
   margin: 0.5rem;
@@ -121,7 +137,7 @@ body {
   margin: 0rem;
 }
 
-.poductosGeneral {
+.productosGeneral {
   display: grid;
   grid-template-columns: 33.3% 33.3% 33.3%;
   grid-template-rows: -webkit-min-content -webkit-min-content;
@@ -129,67 +145,87 @@ body {
   gap: 0px 0px;
   grid-template-areas: " a b c " " d e f ";
 }
-.poductosGeneral .producto1 {
+.productosGeneral .producto1 {
   grid-area: a;
+  margin: 0;
 }
-.poductosGeneral .producto1 div {
+.productosGeneral .producto1 div {
   background-color: black;
   padding: 0.5rem 0.5rem;
-  margin: 0.5rem 1rem 3rem 1rem;
+  margin: 0;
 }
-.poductosGeneral .producto1 div .cardProducto1 {
+.productosGeneral .producto1 div .cardProducto1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-}
-.poductosGeneral .producto1 div .cardProducto1 .cardProducto1__div {
-  padding: 1rem;
-  margin: 0rem;
-}
-.poductosGeneral .producto1 div .cardProducto1 .cardProducto1__div img {
-  width: 10rem;
-}
-.poductosGeneral .producto1 div .cardProducto1 .cardProducto1__div h3 {
-  color: rgb(253, 245, 2);
   margin: 0;
+  padding: 0;
 }
-.poductosGeneral .producto1 div p {
+.productosGeneral .producto1 div .cardProducto1 .cardProducto1__div {
+  padding: 0rem;
+  margin: 0rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  padding: 0.5rem;
+}
+.productosGeneral .producto1 div .cardProducto1 .cardProducto1__div img {
+  width: 100%;
+}
+.productosGeneral .producto1 div .cardProducto1 .cardProducto1__div h3 {
+  color: rgb(253, 245, 2);
+  margin: 0 0 0 0;
+  width: 100%;
+}
+.productosGeneral .producto1 div p {
   background-color: aliceblue;
   width: 100%;
   text-align: center;
+  margin: 0;
 }
-.poductosGeneral .productos2 .productos2__div {
+.productosGeneral .productos2 .productos2__div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-.poductosGeneral .productos2 .productos2__div .productos2__div__card {
+.productosGeneral .productos2 .productos2__div .productos2__div__card {
   background-color: aliceblue;
   width: 25rem;
   padding: 2rem;
   margin: 0.5rem;
 }
-.poductosGeneral .productos2 .productos2__div .productos2__div__card p {
+.productosGeneral .productos2 .productos2__div .productos2__div__card p {
   font-size: 25px;
 }
-.poductosGeneral .productos2 .productos2__div .productos2__div__card .productos2__div__card__div {
+.productosGeneral .productos2 .productos2__div .productos2__div__card .productos2__div__card__div {
   background-color: rgb(238, 126, 126);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 22rem;
 }
-.poductosGeneral .productos2 .productos2__div .productos2__div__card .productos2__div__card__div p {
+.productosGeneral .productos2 .productos2__div .productos2__div__card .productos2__div__card__div p {
   background-color: burlywood;
   padding: 2.5rem 5rem;
   margin: 0rem 1rem 0rem 0rem;
   font-size: 25px;
 }
-.poductosGeneral .productos2 .productos2__div .productos2__div__card .productos2__div__card__div .productos2__div__card__div__h3 {
+.productosGeneral .productos2 .productos2__div .productos2__div__card .productos2__div__card__div .productos2__div__card__div__h3 {
   color: black;
   margin: auto;
   padding: 0rem;
@@ -198,49 +234,49 @@ body {
   text-align: center;
   background-color: rgb(173, 119, 47);
 }
-.poductosGeneral .productos2 .productos2__div h3 {
+.productosGeneral .productos2 .productos2__div h3 {
   background-color: antiquewhite;
   width: 4.5rem;
   padding: 6.5rem 0 6.5rem 0.15rem;
   margin: auto;
 }
-.poductosGeneral .productos3 .productos3__div {
+.productosGeneral .productos3 .productos3__div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.poductosGeneral .productos3 .productos3__div p {
+.productosGeneral .productos3 .productos3__div p {
   background-color: brown;
 }
-.poductosGeneral .productos3 .productos3__div .productos3__div__card {
+.productosGeneral .productos3 .productos3__div .productos3__div__card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.poductosGeneral .productos3 .productos3__div .productos3__div__card .productos3__div__card_p_over {
+.productosGeneral .productos3 .productos3__div .productos3__div__card .productos3__div__card_p_over {
   background-color: antiquewhite;
   width: 20rem;
   height: 3rem;
   padding: 5rem;
   overflow: auto;
 }
-.poductosGeneral .productos3 .productos3__div .productos3__div__card .productos3__div__card_p {
+.productosGeneral .productos3 .productos3__div .productos3__div__card .productos3__div__card_p {
   background-color: antiquewhite;
   width: 20rem;
   padding: 1.5rem;
 }
-.poductosGeneral .productos3 .productos3__div .productos3__div__card h3 {
+.productosGeneral .productos3 .productos3__div .productos3__div__card h3 {
   background-color: black;
   padding: 1rem;
   margin: 1rem;
 }
-.poductosGeneral .productos6 .productos6__div {
+.productosGeneral .productos6 .productos6__div {
   margin: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.poductosGeneral .productos6 .productos6__div .productos6__div__texto {
+.productosGeneral .productos6 .productos6__div .productos6__div__texto {
   background-color: darkblue;
   width: 3rem;
   padding: 1rem;
@@ -248,26 +284,26 @@ body {
   list-style-type: none;
   text-align: center;
 }
-.poductosGeneral .productos6 .productos6__div .productos6__div__precio {
+.productosGeneral .productos6 .productos6__div .productos6__div__precio {
   background-color: aquamarine;
   width: 4rem;
   padding: 1rem;
   margin: 1rem 1rem 1rem 0.5rem;
   list-style-type: none;
 }
-.poductosGeneral .gridProducto2 {
+.productosGeneral .gridProducto2 {
   grid-area: b;
 }
-.poductosGeneral .gridProducto3 {
+.productosGeneral .gridProducto3 {
   grid-area: c;
 }
-.poductosGeneral .gridProducto4 {
+.productosGeneral .gridProducto4 {
   grid-area: d;
 }
-.poductosGeneral .gridProducto5 {
+.productosGeneral .gridProducto5 {
   grid-area: e;
 }
-.poductosGeneral .gridProducto6 {
+.productosGeneral .gridProducto6 {
   grid-area: f;
 }
 
@@ -354,9 +390,53 @@ footer .divEnlaces ul li a {
   body {
     background-color: rgb(255, 251, 130);
   }
+  body .mainIndex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body .mainIndex .heladoImg {
+    width: 100%;
+  }
+  body .mainIndex .videoIndex {
+    width: 100%;
+  }
+  body .cardSabores section {
+    height: 15rem;
+    margin: 5rem 1rem 0rem 1rem;
+  }
+  body .cardSabores section div p {
+    margin: 0.5rem 0 0.5rem 0;
+  }
 }
 @media screen and (min-width: 992px) {
   body {
     background-color: rgb(253, 228, 2);
+  }
+}
+@media screen and (max-width: 991px) {
+  body .cardSabores section {
+    height: 15rem;
+    margin: 5rem 1rem 0rem 1rem;
+  }
+  body .cardSabores section div p {
+    margin: 0.5rem 0 0.5rem 0;
+  }
+  body .productosGeneral .producto1 {
+    width: 100%;
+    padding: 0;
+    margin: auto;
+  }
+  body .productosGeneral .producto1 div {
+    background-color: black;
+    width: 80%;
+    padding: 0;
+    margin: 0 0 0 0;
+  }
+  body .productosGeneral .producto1 div .cardProducto1 {
+    padding: 0;
+    margin: 0 0 0 0;
   }
 }

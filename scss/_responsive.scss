@@ -1,4 +1,64 @@
-@media screen and (max-width:426px) { body{  background-color:rgb(255, 251, 130);
-}}
-@media screen and (min-width:992px) { body{ background-color:rgb(253, 228, 2);  
-}}
+@media screen and (max-width: 426px) {
+    body {
+        background-color: rgb(255, 251, 130);
+        .mainIndex {
+            display: flex;
+            flex-wrap: wrap;
+            .heladoImg {
+                width: 100%;
+            }
+            .videoIndex {
+                width: 100%;
+            }
+        }
+        .cardSabores {
+            section {
+                height: 15rem;
+                margin: 5rem 1rem 0rem 1rem;
+                div {
+                    p {
+                        margin: 0.5rem 0 0.5rem 0;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 992px) {
+    body {
+        background-color: rgb(253, 228, 2);
+    }
+}
+@media screen and (max-width: 991px) {
+    body {
+        .cardSabores {
+            section {
+                height: 15rem;
+                margin: 5rem 1rem 0rem 1rem;
+                div {
+                    p {
+                        margin: 0.5rem 0 0.5rem 0;
+                    }
+                }
+            }
+        }
+        .productosGeneral {
+            .producto1 {
+                width: 100%;
+                padding: 0;
+                margin: auto;
+                div {
+                    background-color: black;
+                    width: 80%;
+                    padding: 0;
+                    margin: 0 0 0 0;
+                    .cardProducto1 {
+                        padding: 0;
+                        margin: 0 0 0 0;
+                        
+                    }
+                }
+            }
+        }
+    }
+}
