@@ -270,6 +270,9 @@ body {
   padding: 1rem;
   margin: 1rem;
 }
+.productosGeneral .productos3 .productos3__div .productos3__div__card h3:hover {
+  background-color: rgb(210, 105, 30);
+}
 .productosGeneral .productos6 .productos6__div {
   margin: 1rem;
   display: -webkit-box;
