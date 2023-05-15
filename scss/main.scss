@@ -3,6 +3,7 @@ body {
     background-color: rgb(253, 245, 2);
     font-family: "Cormorant Garamond", serif;
 }
+/*-----Navbar----*/
 .navbarp {
     .navbarp__div {
         background-color: rgb(210, 105, 30);
@@ -26,11 +27,20 @@ body {
 
 .letralogo {
 font-size: 5rem; color:  rgb(253, 245, 2);}
+
+/*-----_mainindex----*/
 @import "_mainindex.scss";
+/*-----mainpromociones----*/
 @import "_mainpromociones.scss";
+/*-----mainsabores----*/
 @import "_mainsabores.scss";
+/*-----mainproductos----*/
 @import "_mainproductos.scss";
+/*-----maincafeteria----*/
 @import "_maincafeteria.scss";
+/*-----_maindelivery----*/
 @import "_maindelivery.scss";
+/*-----_footer----*/
 @import "_footer.scss";
+/*-----_responsive----*/
 @import "_responsive.scss";

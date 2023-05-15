@@ -1,3 +1,6 @@
+
+
+/*-----max 426----*/
 @media screen and (max-width: 426px) {
     body {
         background-color: rgb(255, 251, 130);
@@ -68,11 +71,15 @@
         }
     }
 }
+
+/*-----min 992----*/
 @media screen and (min-width: 992px) {
     body {
         background-color: rgb(253, 228, 2);
     }
 }
+
+/*-----max 991 ----*/
 @media screen and (max-width: 991px) {
     body {
         .cardSabores {

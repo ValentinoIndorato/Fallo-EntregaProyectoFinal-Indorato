@@ -3,6 +3,7 @@ body {
   font-family: "Cormorant Garamond", serif;
 }
 
+/*-----Navbar----*/
 .navbarp .navbarp__div {
   background-color: rgb(210, 105, 30);
 }
@@ -25,6 +26,7 @@ body {
   color: rgb(253, 245, 2);
 }
 
+/*-----_mainindex----*/
 .mainIndex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -58,6 +60,7 @@ body {
           align-items: center;
 }
 
+/*-----mainpromociones----*/
 .cardPromociones {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -73,12 +76,14 @@ body {
   padding: 1rem;
   margin: 1rem;
   font-size: 18px;
+  /*-----HOVER----*/
 }
 .cardPromociones div img {
   width: 100%;
 }
 .cardPromociones div h5 {
   color: chocolate;
+  /*-----HOVER----*/
 }
 .cardPromociones div h5:hover {
   color: rgb(253, 245, 2);
@@ -89,6 +94,7 @@ body {
   -webkit-text-stroke: 0.07rem rgb(253, 245, 2);
 }
 
+/*-----mainsabores----*/
 .cardSabores {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -137,6 +143,7 @@ body {
   margin: 0rem;
 }
 
+/*-----mainproductos----*/
 .productosGeneral {
   display: grid;
   grid-template-columns: 33.3% 33.3% 33.3%;
@@ -144,6 +151,11 @@ body {
   grid-template-rows: min-content min-content;
   gap: 0px 0px;
   grid-template-areas: " a b c " " d e f ";
+  /*-----producto1----*/
+  /*-----producto2----*/
+  /*-----producto3----*/
+  /*-----producto6----*/
+  /*-----nombres grid----*/
 }
 .productosGeneral .producto1 {
   grid-area: a;
@@ -269,6 +281,7 @@ body {
   background-color: black;
   padding: 1rem;
   margin: 1rem;
+  /*-----HOVER----*/
 }
 .productosGeneral .productos3 .productos3__div .productos3__div__card h3:hover {
   background-color: rgb(210, 105, 30);
@@ -310,6 +323,7 @@ body {
   grid-area: f;
 }
 
+/*-----maincafeteria----*/
 .cafeteriaArticle {
   margin: 12rem 8rem;
 }
@@ -335,6 +349,7 @@ body {
   width: 5rem;
 }
 
+/*-----_maindelivery----*/
 .DeliveryMain {
   padding: auto;
   margin: 11rem;
@@ -354,6 +369,7 @@ body {
   width: 45%;
 }
 
+/*-----_footer----*/
 footer {
   background-color: rgb(210, 105, 30);
   padding: 0rem 0.5rem;
@@ -390,6 +406,8 @@ footer .divEnlaces ul li a {
   color: rgb(253, 245, 2);
 }
 
+/*-----_responsive----*/
+/*-----max 426----*/
 @media screen and (max-width: 426px) {
   body {
     background-color: rgb(255, 251, 130);
@@ -474,11 +492,13 @@ footer .divEnlaces ul li a {
     margin: 0;
   }
 }
+/*-----min 992----*/
 @media screen and (min-width: 992px) {
   body {
     background-color: rgb(253, 228, 2);
   }
 }
+/*-----max 991 ----*/
 @media screen and (max-width: 991px) {
   body .cardSabores section {
     height: 15rem;

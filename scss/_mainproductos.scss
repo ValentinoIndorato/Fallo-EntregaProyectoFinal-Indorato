@@ -6,6 +6,8 @@
     grid-template-areas:
         " a b c "
         " d e f ";
+
+    /*-----producto1----*/
     .producto1 {
         grid-area: a;
         margin: 0;
@@ -48,6 +50,7 @@
             }
         }
     }
+        /*-----producto2----*/
     .productos2 {
         .productos2__div {
             display: flex;
@@ -92,6 +95,8 @@
             }
         }
     }
+        /*-----producto3----*/
+
     .productos3 {
         .productos3__div {
             display: flex;
@@ -118,11 +123,14 @@
                     background-color: black;
                     padding: 1rem;
                     margin: 1rem;
+                     /*-----HOVER----*/
                     &:hover{background-color:  rgb(210, 105, 30);}
                 }
             }
         }
     }
+        /*-----producto6----*/
+
     .productos6 {
         .productos6__div {
             margin: 1rem;
@@ -144,6 +152,8 @@
             }
         }
     }
+        /*-----nombres grid----*/
+
     .gridProducto2 {
         grid-area: b;
     }
