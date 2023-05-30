@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   background-color: rgb(253, 245, 2);
   font-family: "Cormorant Garamond", serif;
@@ -26,6 +27,48 @@ body {
   color: rgb(253, 245, 2);
 }
 
+/*.prueba {
+    background-image: url('data:image/svg+xml,<svg width="63.759521mm" height="35.618988mm" viewBox="0 0 63.759521 35.618988" version="1.1" id="svg5" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"> <defs id="defs2" /> <g id="layer1" transform="translate(-97.26578,-147.92662)"> <path style="fill:%23636363;stroke-width:0.0960001;paint-order:fill markers stroke" d="m 108.73483,152.38137 c 0,0 -19.906191,25.51688 -7.26822,21.7515 9.8752,-2.94224 5.39322,10.86068 9.68568,9.28729 7.20102,-2.63952 10.05417,-12.22374 15.72705,-9.797 7.22298,3.08985 16.71168,7.2978 18.3653,0.69751 2.33521,-9.3208 16.39131,-1.17632 15.76004,-10.76443 l -0.29847,-4.53331 c 0,0 -7.75638,-8.38393 -15.45333,-10.74676 -4.47581,-1.374 -10.21026,1.69118 -15.00847,2.49706 -5.63006,0.94559 -4.5507,-1.19697 -4.5507,-1.19697" id="path395" /> </g></svg>');
+    margin: 10rem;
+    padding: 5rem;
+}
+
+.prueba2{ background-color: antiquewhite;
+    margin: 10rem;
+    width: 50rem;
+    height: 40rem;
+
+
+    --mask:
+    radial-gradient(30.00px at 50% calc(100% - 30.00px),#000 99%,#0000 101%) calc(50% - 60px) 0/120px 100%,
+    radial-gradient(30.00px at 50% calc(100% + 0.00px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px 100% repeat-x;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+
+}   
+
+.prueba3{background-image: url('data:image/svg+xml,<svg width="63.759521mm" height="35.618988mm" viewBox="0 0 63.759521 35.618988" version="1.1" id="svg5" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"> <defs id="defs2" /> <g id="layer1" transform="translate(-97.26578,-147.92662)"> <path style="fill:%23636363;stroke-width:0.0960001;paint-order:fill markers stroke" d="m 108.73483,152.38137 c 0,0 -19.906191,25.51688 -7.26822,21.7515 9.8752,-2.94224 5.39322,10.86068 9.68568,9.28729 7.20102,-2.63952 10.05417,-12.22374 15.72705,-9.797 7.22298,3.08985 16.71168,7.2978 18.3653,0.69751 2.33521,-9.3208 16.39131,-1.17632 15.76004,-10.76443 l -0.29847,-4.53331 c 0,0 -7.75638,-8.38393 -15.45333,-10.74676 -4.47581,-1.374 -10.21026,1.69118 -15.00847,2.49706 -5.63006,0.94559 -4.5507,-1.19697 -4.5507,-1.19697" id="path395" /> </g></svg>');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 5rem;
+    translate: 50px;
+    text-align: center
+
+}
+
+.prueba4{background-color: aliceblue;
+    margin: 10rem;
+    mask-image:url('data:image/svg+xml,<svg width="63.759521mm" height="35.618988mm" viewBox="0 0 63.759521 35.618988" version="1.1" id="svg5" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"> <defs id="defs2" /> <g id="layer1" transform="translate(-97.26578,-147.92662)"> <path style="fill:%23636363;stroke-width:0.0960001;paint-order:fill markers stroke" d="m 108.73483,152.38137 c 0,0 -19.906191,25.51688 -7.26822,21.7515 9.8752,-2.94224 5.39322,10.86068 9.68568,9.28729 7.20102,-2.63952 10.05417,-12.22374 15.72705,-9.797 7.22298,3.08985 16.71168,7.2978 18.3653,0.69751 2.33521,-9.3208 16.39131,-1.17632 15.76004,-10.76443 l -0.29847,-4.53331 c 0,0 -7.75638,-8.38393 -15.45333,-10.74676 -4.47581,-1.374 -10.21026,1.69118 -15.00847,2.49706 -5.63006,0.94559 -4.5507,-1.19697 -4.5507,-1.19697" id="path395" /> </g></svg>');
+    font-size: 80px
+}
+
+.prueba5{  background-color: antiquewhite;
+    clip-path: style="fill:#636363;stroke-width:0.0960001;paint-order:fill markers stroke" path("m 108.73483,152.38137 c 0,0 -19.906191,25.51688 -7.26822,21.7515 9.8752,-2.94224 5.39322,10.86068 9.68568,9.28729 7.20102,-2.63952 10.05417,-12.22374 15.72705,-9.797 7.22298,3.08985 16.71168,7.2978 18.3653,0.69751 2.33521,-9.3208 16.39131,-1.17632 15.76004,-10.76443 l -0.29847,-4.53331 c 0,0 -7.75638,-8.38393 -15.45333,-10.74676 -4.47581,-1.374 -10.21026,1.69118 -15.00847,2.49706 -5.63006,0.94559 -4.5507,-1.19697 -4.5507,-1.19697");
+    background-color: antiquewhite;
+    width: 100rem;
+    margin: 10rem
+
+}*/
 /*-----_mainindex----*/
 .mainIndex {
   display: -webkit-box;
@@ -76,6 +119,7 @@ body {
   padding: 1rem;
   margin: 1rem;
   font-size: 18px;
+  /*svg {fill: #1559cf;stroke: #00ff8c;&:hover{fill: #ff0000;} } el stroke si sirve*/
   /*-----HOVER----*/
 }
 .cardPromociones div img {
@@ -83,6 +127,7 @@ body {
 }
 .cardPromociones div h5 {
   color: chocolate;
+  margin: 0.5rem 0 0 0;
   /*-----HOVER----*/
 }
 .cardPromociones div h5:hover {
@@ -95,258 +140,293 @@ body {
 }
 
 /*-----mainsabores----*/
-.cardSabores {
+.sabores {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-.cardSabores section {
+.sabores section {
   background-color: rgb(210, 105, 30);
-  width: 25rem;
-  height: 10rem;
-  margin: 5rem 1rem 3rem 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-size: 18px;
+  margin: 10% 0 10% 0;
+  padding: 1%;
 }
-.cardSabores section h2 {
-  margin: 0.5rem;
-}
-.cardSabores section div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 0rem;
-  color: rgb(253, 245, 2);
-}
-.cardSabores section div p {
-  margin: 0rem;
+.sabores section .ul--sabores {
+  padding: 0%;
 }
 
 /*-----mainproductos----*/
-.productosGeneral {
+ol,
+ul,
+li {
+  text-decoration: none;
+  list-style: none; /*padding: 0; agrgar al terminar*/
+  font-size: 18px;
+}
+
+.li-paraelegir .li__ul-paralegir {
   display: grid;
-  grid-template-columns: 33.3% 33.3% 33.3%;
-  grid-template-rows: -webkit-min-content -webkit-min-content;
-  grid-template-rows: min-content min-content;
-  gap: 0px 0px;
-  grid-template-areas: " a b c " " d e f ";
-  /*-----producto1----*/
-  /*-----producto2----*/
-  /*-----producto3----*/
-  /*-----producto6----*/
-  /*-----nombres grid----*/
-}
-.productosGeneral .producto1 {
-  grid-area: a;
-  margin: 0;
-}
-.productosGeneral .producto1 div {
-  background-color: black;
-  padding: 0.5rem 0.5rem;
-  margin: 0;
-}
-.productosGeneral .producto1 div .cardProducto1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
-}
-.productosGeneral .producto1 div .cardProducto1 .cardProducto1__div {
-  padding: 0rem;
-  margin: 0rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 50%;
-  padding: 0.5rem;
+  padding: 0;
+  /*que es esto? grid-auto-columns: 1fr;*/
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content;
+  grid-template-rows: min-content min-content min-content min-content;
+  gap: 0px 0px;
+  grid-template-areas: "bochagrid dosbochasgrid tresbochasgrid" "barquillogrid ... pinitogrid" "cuartokgrid mediokgrid kgrid" "bañochoco bañochoco bañochoco";
 }
-.productosGeneral .producto1 div .cardProducto1 .cardProducto1__div img {
-  width: 100%;
+.li-paraelegir .li__ul-paralegir li img {
+  width: 25%;
 }
-.productosGeneral .producto1 div .cardProducto1 .cardProducto1__div h3 {
-  color: rgb(253, 245, 2);
-  margin: 0 0 0 0;
-  width: 100%;
-}
-.productosGeneral .producto1 div p {
-  background-color: aliceblue;
-  width: 100%;
-  text-align: center;
+.li-paraelegir .li__ul-paralegir li p {
+  font-size: 18px;
+  padding: 0 0 0 0;
   margin: 0;
 }
-.productosGeneral .productos2 .productos2__div {
+
+/*------ grid area----*/
+.bochagrid {
+  grid-area: bochagrid;
+}
+
+.dosbochasgrid {
+  grid-area: dosbochasgrid;
+}
+
+.tresbochasgrid {
+  grid-area: tresbochasgrid;
+}
+
+.barquillogrid {
+  grid-area: barquillogrid;
+}
+
+.pinitogrid {
+  grid-area: pinitogrid;
+}
+
+.cuartokgrid {
+  grid-area: cuartokgrid;
+}
+
+.mediokgrid {
+  grid-area: mediokgrid;
+}
+
+.kgrid {
+  grid-area: kgrid;
+}
+
+.bañochoco {
+  grid-area: bañochoco;
+}
+
+.bañochoco {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-}
-.productosGeneral .productos2 .productos2__div .productos2__div__card {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background-color: aliceblue;
-  width: 25rem;
-  padding: 2rem;
-  margin: 0.5rem;
+  border: 0.2rem solid black;
+  width: auto;
 }
-.productosGeneral .productos2 .productos2__div .productos2__div__card p {
-  font-size: 25px;
+.bañochoco .bañochoco_p {
+  padding: 0 0 0 0;
 }
-.productosGeneral .productos2 .productos2__div .productos2__div__card .productos2__div__card__div {
-  background-color: rgb(238, 126, 126);
+
+.li-postres .li__ul-postres {
+  padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 22rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-.productosGeneral .productos2 .productos2__div .productos2__div__card .productos2__div__card__div p {
-  background-color: burlywood;
-  padding: 2.5rem 5rem;
-  margin: 0rem 1rem 0rem 0rem;
-  font-size: 25px;
-}
-.productosGeneral .productos2 .productos2__div .productos2__div__card .productos2__div__card__div .productos2__div__card__div__h3 {
-  color: black;
-  margin: auto;
-  padding: 0rem;
-  width: 5rem;
-  height: 2.5rem;
-  text-align: center;
-  background-color: rgb(173, 119, 47);
-}
-.productosGeneral .productos2 .productos2__div h3 {
-  background-color: antiquewhite;
-  width: 4.5rem;
-  padding: 6.5rem 0 6.5rem 0.15rem;
-  margin: auto;
-}
-.productosGeneral .productos3 .productos3__div {
+.li-postres .li__ul-postres .ul__li-postres {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-.productosGeneral .productos3 .productos3__div p {
-  background-color: brown;
-}
-.productosGeneral .productos3 .productos3__div .productos3__div__card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-.productosGeneral .productos3 .productos3__div .productos3__div__card .productos3__div__card_p_over {
-  background-color: antiquewhite;
-  width: 20rem;
-  height: 3rem;
-  padding: 5rem;
-  overflow: auto;
-}
-.productosGeneral .productos3 .productos3__div .productos3__div__card .productos3__div__card_p {
-  background-color: antiquewhite;
-  width: 20rem;
-  padding: 1.5rem;
-}
-.productosGeneral .productos3 .productos3__div .productos3__div__card h3 {
-  background-color: black;
-  padding: 1rem;
-  margin: 1rem;
-  /*-----HOVER----*/
-}
-.productosGeneral .productos3 .productos3__div .productos3__div__card h3:hover {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
   background-color: rgb(210, 105, 30);
 }
-.productosGeneral .productos6 .productos6__div {
-  margin: 1rem;
+.li-postres .li__ul-postres .ul__li-postres .div-precios {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
-.productosGeneral .productos6 .productos6__div .productos6__div__texto {
-  background-color: darkblue;
-  width: 3rem;
-  padding: 1rem;
-  width: 4rem;
-  list-style-type: none;
-  text-align: center;
+.li-postres .li__ul-postres .ul__li-postres .div-precios p {
+  margin: 0 5% 0 5%;
 }
-.productosGeneral .productos6 .productos6__div .productos6__div__precio {
-  background-color: aquamarine;
-  width: 4rem;
-  padding: 1rem;
-  margin: 1rem 1rem 1rem 0.5rem;
-  list-style-type: none;
+.li-postres .li__ul-postres .unidad {
+  display: none;
+  position: absolute;
+  top: 62vw;
+  background-color: aliceblue;
+  right: 6vw;
 }
-.productosGeneral .gridProducto2 {
-  grid-area: b;
+.li-postres .li__ul-postres .seisunidades {
+  display: none;
+  position: absolute;
+  right: 0;
 }
-.productosGeneral .gridProducto3 {
-  grid-area: c;
+
+.familiares {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-.productosGeneral .gridProducto4 {
-  grid-area: d;
+.familiares .ul__familiares {
+  background-color: rgb(210, 105, 30);
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  /*.li__familiaresPrecio{
+  }*/
 }
-.productosGeneral .gridProducto5 {
-  grid-area: e;
+.familiares .ul__familiares .li__familiares {
+  padding: 0;
+  width: 50%;
 }
-.productosGeneral .gridProducto6 {
-  grid-area: f;
+
+.tortas {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.tortas .ul__tortas {
+  background-color: rgb(210, 105, 30);
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  /*.li__tortasprecio {
+  }*/
+}
+.tortas .ul__tortas .li__tortas {
+  width: 50%;
+}
+
+.antojos {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.antojos .ul__antojos {
+  background-color: rgb(210, 105, 30);
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.antojos .ul__antojos .li__antojos {
+  width: 50%;
+}
+
+.unidadantojo,
+.unidadesantojo {
+  position: absolute;
+  top: 8vw;
+}
+
+.copas {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.copas .ul__copas {
+  background-color: rgb(210, 105, 30);
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.copas .ul__copas .li__copas {
+  width: 50%;
+}
+
+.texto-hover:hover {
+  color: rgb(253, 245, 2);
+}
+.texto-hover:hover span {
+  color: black;
 }
 
 /*-----maincafeteria----*/
-.cafeteriaArticle {
-  margin: 12rem 8rem;
+.cafeteria {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-.cafeteriaArticle .cafeteria1 {
-  display: inline-block;
-  background-color: aliceblue;
-  margin: auto;
+.cafeteria .ul--cafeteria {
+  background-color: rgb(210, 105, 30);
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  /*.li--precio{}*/
 }
-.cafeteriaArticle .cafeteria1 ul {
-  display: inline-block;
-  background-color: darkcyan;
-  list-style-type: none;
-  font-size: 18px;
-  width: 7.5rem;
+.cafeteria .ul--cafeteria .li--cafeteria {
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;*/
+  width: 50%;
 }
-.cafeteriaArticle .cafeteria1 ul .cafeteria1_ulTexto {
-  width: 10rem;
+
+.texto-hover:hover {
+  color: rgb(253, 245, 2);
 }
-.cafeteriaArticle .cafeteria1 ul .cafeteria1_ulTexto .cafeteria1_liTexto {
-  text-align: center;
-}
-.cafeteriaArticle .cafeteria1 ul .cafeteria_ulPrecio {
-  width: 5rem;
+.texto-hover:hover span {
+  color: black;
 }
 
 /*-----_maindelivery----*/
@@ -360,50 +440,89 @@ body {
 .DeliveryMain .deliverySection {
   width: 100%;
   height: 10%;
-  background-color: aliceblue;
+  background-color: rgb(210, 105, 30);
   text-align: center;
   margin: 0.5rem;
-  font-size: 18px;
+  font-size: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .DeliveryMain .deliverySection .imgpedidosya {
-  width: 45%;
+  width: 100%;
 }
 
+/*.texto-hover{display: flex; justify-content: space-between;
+    }
+.texto-hover:hover { color: aqua; span{color:black ;}}*/
 /*-----_footer----*/
 footer {
   background-color: rgb(210, 105, 30);
   padding: 0rem 0.5rem;
   font-size: 18px;
   margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 footer .divInformacion h3 {
   color: rgb(253, 245, 2);
   margin: 0;
+  text-decoration: none;
 }
-footer .divInformacion p {
-  margin: 0;
+footer .divInformacion a {
+  text-decoration: none;
+  color: rgb(253, 245, 2);
 }
 footer .divDirecciones {
   text-align: right;
 }
 footer .divDirecciones h3 {
-  color: rgb(253, 245, 2);
   margin: 0;
+}
+footer .divDirecciones h3 a {
+  text-decoration: none;
+  color: rgb(253, 245, 2);
 }
 footer .divDirecciones ul {
   list-style-type: none;
   margin: 0;
 }
-footer .divEnlaces {
-  text-align: right;
+footer .divDirecciones ul li:hover {
+  color: rgb(253, 245, 2);
 }
-footer .divEnlaces ul {
-  list-style-type: none;
-  margin: 0;
-}
-footer .divEnlaces ul li a {
+footer .divDirecciones ul li a {
   text-decoration: none;
   color: rgb(253, 245, 2);
+}
+
+/*-----_404----*/
+.main404 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.main404 .h1404 .volver404 {
+  text-decoration: none;
+  font-size: 5rem;
+  color: rgb(210, 105, 30);
+}
+.main404 .la {
+  width: 85%;
 }
 
 /*-----_responsive----*/

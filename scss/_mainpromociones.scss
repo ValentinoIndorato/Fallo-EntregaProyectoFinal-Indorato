@@ -14,8 +14,11 @@
         img {
             width: 100%;
         }
+        
+        /*svg {fill: #1559cf;stroke: #00ff8c;&:hover{fill: #ff0000;} } el stroke si sirve*/
         h5 {
-            color: chocolate; ;
+            color: chocolate; 
+            margin: 0.5rem 0 0 0;
                 /*-----HOVER----*/
             &:hover { color: rgb(253, 245, 2);
                 }

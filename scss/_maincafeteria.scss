@@ -1,30 +1,16 @@
-.cafeteriaArticle { margin: 12rem 8rem; 
-    .cafeteria1 {display: inline-block;
-        background-color: aliceblue; margin: auto;
-        
-        ul {
-            display: inline-block;
-            background-color: darkcyan;
-            list-style-type: none;
-            font-size: 18px;
-            width: 7.5rem;
-            
-
-            .cafeteria1_ulTexto {
-                width: 10rem ; 
-                
-                .cafeteria1_liTexto {
-                    text-align: center;
-                    
-                    
-                }
-            }
-            .cafeteria_ulPrecio {
-                width: 5rem; 
-               
-                
-            }
+.cafeteria {
+    justify-content: center;
+    .ul--cafeteria {background-color: rgb(210, 105, 30); padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        .li--cafeteria {
+            /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;*/
+            width: 50%;
         }
+        /*.li--precio{}*/
     }
 }
-
+.texto-hover:hover { color: rgb(253, 245, 2); span{color:black ;}}
