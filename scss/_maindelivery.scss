@@ -1,22 +1,26 @@
 .DeliveryMain {
     padding:auto;
-    margin: 11rem;
+    margin: 10%;
     align-items: center;
     
     .deliverySection {
-        width: 100%;
-        height: 10%;
+        
+        
         background-color: rgb(210, 105, 30); 
         text-align: center;
         margin: 0.5rem;
         font-size: 30px;
         display: flex; flex-wrap: wrap; justify-content: space-around;
         align-items: center;
-        .imgpedidosya {
-            width: 100%;
-        }
+        
+        
+        
+           
+        
     }
 }
+
+.sectionpedidosya{ .a-pedidosya{width: 50%; .imgpedidosya {width: 100%; padding: 0; margin: auto; }}}
 /*.texto-hover{display: flex; justify-content: space-between;
     }
 .texto-hover:hover { color: aqua; span{color:black ;}}*/
