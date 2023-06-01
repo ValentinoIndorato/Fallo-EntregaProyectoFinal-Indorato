@@ -1,15 +1,19 @@
 .cardPromociones {
     display: flex;
-    justify-content: center;   
-
     flex-wrap: wrap;
+    justify-content: center;    
+    margin: 0 0 0 0;
     
     div {
-        width: 20rem;
-        padding: 1rem;
-        margin: 1rem;
+        width: 25%;
+        height: 50%;
+        margin: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
         font-size: 18px;
-        
+        background-color: antiquewhite;
+       
         
         img {
             width: 100%;
@@ -18,14 +22,21 @@
         /*svg {fill: #1559cf;stroke: #00ff8c;&:hover{fill: #ff0000;} } el stroke si sirve*/
         h5 {
             color: chocolate; 
-            margin: 0.5rem 0 0 0;
-                /*-----HOVER----*/
-            &:hover { color: rgb(253, 245, 2);
-                }
+            margin: 0.5rem 0 0 0; display: inline;
         }
+        p{margin: 0; display: inline;  }
          /*-----HOVER----*/
         &:hover {
-            background-color: chocolate;
-            color: rgb(253, 245, 2); -webkit-text-stroke: 0.07rem rgb(253, 245, 2);    }
+            
+            border: 0.5rem solid chocolate;
+            p{ span{border-radius: 50%;display: inline; 
+                border-bottom-width: thin  ;
+                border-bottom-style:  solid ;
+                border-bottom-color: black;}
+                /*border-left-width: thin solid black; 
+                border-right-width: thin solid black;;
+                border-top-width: thin solid black;*/}
+
+               }
     }
 }
