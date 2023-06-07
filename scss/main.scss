@@ -1,9 +1,13 @@
 body {
     background-color: rgb(253, 245, 2);
     font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-size: 100%;
 }
+
 /*-----Navbar----*/
-.navbarp {  background-color: rgb(210, 105, 30);
+.navbarp {
+    background-color: rgb(210, 105, 30);
     .navbarp__div {
         background-color: rgb(210, 105, 30);
 
@@ -32,49 +36,8 @@ body {
 .letralogo {
     font-size: 5rem;
     color: rgb(253, 245, 2);
+    font-weight: 400;
 }
-/*.prueba {
-    background-image: url('data:image/svg+xml,<svg width="63.759521mm" height="35.618988mm" viewBox="0 0 63.759521 35.618988" version="1.1" id="svg5" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"> <defs id="defs2" /> <g id="layer1" transform="translate(-97.26578,-147.92662)"> <path style="fill:%23636363;stroke-width:0.0960001;paint-order:fill markers stroke" d="m 108.73483,152.38137 c 0,0 -19.906191,25.51688 -7.26822,21.7515 9.8752,-2.94224 5.39322,10.86068 9.68568,9.28729 7.20102,-2.63952 10.05417,-12.22374 15.72705,-9.797 7.22298,3.08985 16.71168,7.2978 18.3653,0.69751 2.33521,-9.3208 16.39131,-1.17632 15.76004,-10.76443 l -0.29847,-4.53331 c 0,0 -7.75638,-8.38393 -15.45333,-10.74676 -4.47581,-1.374 -10.21026,1.69118 -15.00847,2.49706 -5.63006,0.94559 -4.5507,-1.19697 -4.5507,-1.19697" id="path395" /> </g></svg>');
-    margin: 10rem;
-    padding: 5rem;
-}
-
-.prueba2{ background-color: antiquewhite;
-    margin: 10rem;
-    width: 50rem;
-    height: 40rem;
-    
-    
-    --mask:
-    radial-gradient(30.00px at 50% calc(100% - 30.00px),#000 99%,#0000 101%) calc(50% - 60px) 0/120px 100%,
-    radial-gradient(30.00px at 50% calc(100% + 0.00px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px 100% repeat-x;
-    -webkit-mask: var(--mask);
-    mask: var(--mask);
-    
-}   
-
-.prueba3{background-image: url('data:image/svg+xml,<svg width="63.759521mm" height="35.618988mm" viewBox="0 0 63.759521 35.618988" version="1.1" id="svg5" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"> <defs id="defs2" /> <g id="layer1" transform="translate(-97.26578,-147.92662)"> <path style="fill:%23636363;stroke-width:0.0960001;paint-order:fill markers stroke" d="m 108.73483,152.38137 c 0,0 -19.906191,25.51688 -7.26822,21.7515 9.8752,-2.94224 5.39322,10.86068 9.68568,9.28729 7.20102,-2.63952 10.05417,-12.22374 15.72705,-9.797 7.22298,3.08985 16.71168,7.2978 18.3653,0.69751 2.33521,-9.3208 16.39131,-1.17632 15.76004,-10.76443 l -0.29847,-4.53331 c 0,0 -7.75638,-8.38393 -15.45333,-10.74676 -4.47581,-1.374 -10.21026,1.69118 -15.00847,2.49706 -5.63006,0.94559 -4.5507,-1.19697 -4.5507,-1.19697" id="path395" /> </g></svg>');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 5rem;
-    translate: 50px;
-    text-align: center
-    
-}
-
-.prueba4{background-color: aliceblue;
-    margin: 10rem;
-    mask-image:url('data:image/svg+xml,<svg width="63.759521mm" height="35.618988mm" viewBox="0 0 63.759521 35.618988" version="1.1" id="svg5" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"> <defs id="defs2" /> <g id="layer1" transform="translate(-97.26578,-147.92662)"> <path style="fill:%23636363;stroke-width:0.0960001;paint-order:fill markers stroke" d="m 108.73483,152.38137 c 0,0 -19.906191,25.51688 -7.26822,21.7515 9.8752,-2.94224 5.39322,10.86068 9.68568,9.28729 7.20102,-2.63952 10.05417,-12.22374 15.72705,-9.797 7.22298,3.08985 16.71168,7.2978 18.3653,0.69751 2.33521,-9.3208 16.39131,-1.17632 15.76004,-10.76443 l -0.29847,-4.53331 c 0,0 -7.75638,-8.38393 -15.45333,-10.74676 -4.47581,-1.374 -10.21026,1.69118 -15.00847,2.49706 -5.63006,0.94559 -4.5507,-1.19697 -4.5507,-1.19697" id="path395" /> </g></svg>');
-    font-size: 80px
-}
- 
-.prueba5{  background-color: antiquewhite;
-    clip-path: style="fill:#636363;stroke-width:0.0960001;paint-order:fill markers stroke" path("m 108.73483,152.38137 c 0,0 -19.906191,25.51688 -7.26822,21.7515 9.8752,-2.94224 5.39322,10.86068 9.68568,9.28729 7.20102,-2.63952 10.05417,-12.22374 15.72705,-9.797 7.22298,3.08985 16.71168,7.2978 18.3653,0.69751 2.33521,-9.3208 16.39131,-1.17632 15.76004,-10.76443 l -0.29847,-4.53331 c 0,0 -7.75638,-8.38393 -15.45333,-10.74676 -4.47581,-1.374 -10.21026,1.69118 -15.00847,2.49706 -5.63006,0.94559 -4.5507,-1.19697 -4.5507,-1.19697");
-    background-color: antiquewhite;
-    width: 100rem;
-    margin: 10rem
-
-}*/
 
 /*-----_mainindex----*/
 @import "_mainindex.scss";
@@ -94,5 +57,3 @@ body {
 @import "_404.scss";
 /*-----_responsive----*/
 @import "_responsive.scss";
-
-

@@ -1,17 +1,60 @@
-.mainIndex {
-    display: flex; justify-content: center; align-items: center;
-    
-    
-    .heladoImg {
-        width: 84%;  
+.indexNuevo {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    .section__indexNuevo {
+        display: flex;
+        align-items: center;
+        justify-content: space-around; /*space-around mas separado. space-evenly mas junto*/
+        height: 25%;
+        .p__indexNuevo {
+            background-color: aliceblue;
         
-        
-    }
-    .videoIndex {
-        width: 100%;
-        justify-content: center;
-        
-        
+            border-radius: 20px;
+            padding: 1.1rem;
+            margin: 0;
+            
+
+            
+            height: 50%;
+            font-size: auto;
+            text-align: center;
+            --mask:
+    radial-gradient(0.60vw at 50% 0.82vw,#000 99%,#0000 101%) calc(50% - 1vw) 0/2vw 51% repeat-x,
+    radial-gradient(0.60vw at 50% -0.33vw,#0000 99%,#000 101%) 50% 0.5vw/2vw calc(51% - 0.5vw) repeat-x,
+    radial-gradient(0.60vw at 50% calc(100% - 0.82vw),#000 99%,#0000 101%) calc(50% - 1vw) 100%/2vw 51% repeat-x,
+    radial-gradient(0.60vw at 50% calc(100% + 0.33vw),#0000 99%,#000 101%) 50% calc(100% - 0.5vw)/2vw calc(51% - 0.5vw) repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+            &:hover {
+                transform: scale(2);
+            }
+
+            a { 
+                padding: 2rem;
+                font-size:xx-large;
+            }
+        }
+        .h1__g { 
+            background-color: aqua;
+            padding: 0 1rem 0 1rem;
+            --mask: radial-gradient(13.44px at 18.8px 50%, #000 99%, #0000 101%) 0 calc(50% - 16px) / 51% 32px repeat-y,
+                radial-gradient(13.44px at -10.8px 50%, #0000 99%, #000 101%) 8px 50% / calc(51% - 8px) 32px repeat-y,
+                radial-gradient(13.44px at calc(100% - 18.8px) 50%, #000 99%, #0000 101%) 100% calc(50% - 16px) / 51%
+                    32px repeat-y,
+                radial-gradient(13.44px at calc(100% + 10.8px) 50%, #0000 99%, #000 101%) calc(100% - 8px) 50% /
+                    calc(51% - 8px) 32px repeat-y;
+            -webkit-mask: var(--mask);
+            mask: var(--mask);
+            a { 
+                
+                font-size:100px;
+            }
+            &:hover {
+                transform: scale(1.5);
+            }
+        }
     }
 }
-.divmain{display: flex;  justify-content: center; align-items: center;}
