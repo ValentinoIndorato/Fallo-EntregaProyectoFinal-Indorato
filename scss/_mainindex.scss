@@ -22,10 +22,10 @@
             font-size: auto;
             text-align: center;
             --mask:
-    radial-gradient(0.60vw at 50% 0.82vw,#000 99%,#0000 101%) calc(50% - 1vw) 0/2vw 51% repeat-x,
-    radial-gradient(0.60vw at 50% -0.33vw,#0000 99%,#000 101%) 50% 0.5vw/2vw calc(51% - 0.5vw) repeat-x,
-    radial-gradient(0.60vw at 50% calc(100% - 0.82vw),#000 99%,#0000 101%) calc(50% - 1vw) 100%/2vw 51% repeat-x,
-    radial-gradient(0.60vw at 50% calc(100% + 0.33vw),#0000 99%,#000 101%) 50% calc(100% - 0.5vw)/2vw calc(51% - 0.5vw) repeat-x;
+    radial-gradient(1.80rem at 1rem 2.50rem,#000 99%,#0000 101%) calc(50% - 2rem) 0/4rem 51% repeat-x,
+    radial-gradient(1.80rem at 1rem -1.5rem,#0000 99%,#000 101%) 50% 1rem/4rem calc(51% - 1rem) repeat-x,
+    radial-gradient(1.80rem at 1rem calc(100% - 2.50rem),#000 99%,#0000 101%) calc(50% - 2rem) 100%/4rem 51% repeat-x,
+    radial-gradient(1.80rem at 1rem calc(100% + 1.50rem),#0000 99%,#000 101%) 50% calc(100% - 1rem)/4rem calc(51% - 1rem) repeat-x;
   -webkit-mask: var(--mask);
           mask: var(--mask);
             &:hover {
