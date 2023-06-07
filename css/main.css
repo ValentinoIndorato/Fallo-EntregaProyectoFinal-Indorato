@@ -5,6 +5,9 @@ body {
 }
 
 /*-----Navbar----*/
+.navbarp {
+  background-color: rgb(210, 105, 30);
+}
 .navbarp .navbarp__div {
   background-color: rgb(210, 105, 30);
 }
@@ -176,6 +179,8 @@ body {
       flex-wrap: wrap;
 }
 .sabores section {
+  width: auto;
+  height: 16rem;
   background-color: rgb(210, 105, 30);
   margin: 10% 0 10% 0;
   padding: 1%;
