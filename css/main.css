@@ -114,10 +114,11 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 0 0 0 0;
+  margin: 1.5rem 0 1.5rem 0;
+  width: 100%;
 }
 .cardPromociones div {
-  width: 25%;
+  width: 30rem;
   height: 50%;
   margin: 0.5rem;
   display: -webkit-box;
@@ -137,7 +138,7 @@ body {
 .cardPromociones div img {
   width: 100%;
 }
-.cardPromociones div h5 {
+.cardPromociones div h2 {
   color: chocolate;
   margin: 0.5rem 0 0 0;
   display: inline;
@@ -145,6 +146,7 @@ body {
 .cardPromociones div p {
   margin: 0;
   display: inline;
+  font-size: 18px;
 }
 .cardPromociones div:hover {
   border: 0.5rem solid chocolate;
