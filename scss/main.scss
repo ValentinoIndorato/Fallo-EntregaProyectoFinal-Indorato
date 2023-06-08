@@ -19,11 +19,16 @@ body {
           radial-gradient(34.99px at 2rem calc(100% + 18.00px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px 100% repeat-x;
         -webkit-mask: var(--mask);
                 mask: var(--mask);*/
-                --mask:
+                /*--mask:
                 radial-gradient(27.99px at 50% calc(100% - 38.40px),#000 99%,#0000 101%) calc(50% - 48px) 0/96px 100%,
                 radial-gradient(27.99px at 50% calc(100% + 14.40px),#0000 99%,#000 101%) 50% calc(100% - 24px)/96px 100% repeat-x;
               -webkit-mask: var(--mask);
-                      mask: var(--mask);
+                      mask: var(--mask);*/
+                      --mask:
+    radial-gradient(34.99px at 50% calc(100% - 48.00px),#000 99%,#0000 101%) calc(50% - 60px) 0/120px 100%,
+    radial-gradient(34.99px at 50% calc(100% + 18.00px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px 100% repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
     .navbarp__div {
         background-color: rgb(210, 105, 30);
 
@@ -49,13 +54,7 @@ body {
     }
 }
 
-.navbarp2{background-color: rgb(210, 30, 30);
-     --mask:
-    radial-gradient(34.99px at 50% calc(100% - 48.00px),#000 99%,#0000 101%) calc(50% - 60px) 0/120px 100%,
-    radial-gradient(34.99px at 50% calc(100% + 18.00px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px 100% repeat-x;
-  -webkit-mask: var(--mask);
-          mask: var(--mask);
-        }
+
 .letralogo {    
 
     font-size: 5rem;
