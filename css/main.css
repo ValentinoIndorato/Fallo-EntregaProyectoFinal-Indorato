@@ -9,6 +9,21 @@ body {
 /*-----Navbar----*/
 .navbarp {
   background-color: rgb(210, 105, 30);
+  /*--mask:
+    radial-gradient(34.99px at 50% calc(100% - 48.00px),#000 99%,#0000 101%) calc(50% - 60px) 0/120px 100%,
+    radial-gradient(34.99px at 50% calc(100% + 18.00px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px 100% repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);*/
+  /* --mask:
+    radial-gradient(34.99px at 2rem calc(100% - 48.00px),#000 99%,#0000 101%) calc(50% - 60px) 0/120px 100%,
+    radial-gradient(34.99px at 2rem calc(100% + 18.00px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px 100% repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);*/
+  --mask:
+  radial-gradient(27.99px at 50% calc(100% - 38.40px),#000 99%,#0000 101%) calc(50% - 48px) 0/96px 100%,
+  radial-gradient(27.99px at 50% calc(100% + 14.40px),#0000 99%,#000 101%) 50% calc(100% - 24px)/96px 100% repeat-x;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
 }
 .navbarp .navbarp__div {
   background-color: rgb(210, 105, 30);
@@ -25,6 +40,15 @@ body {
 .navbarp .navbarp__div .navbarp__div__div .navbarp__div__div__ul .navbarp__div__div__ul__li .navbarp__div__div__ul__li--a:hover {
   background-color: rgb(253, 245, 2);
   color: rgb(210, 105, 30);
+}
+
+.navbarp2 {
+  background-color: rgb(210, 30, 30);
+  --mask:
+  radial-gradient(34.99px at 50% calc(100% - 48.00px),#000 99%,#0000 101%) calc(50% - 60px) 0/120px 100%,
+  radial-gradient(34.99px at 50% calc(100% + 18.00px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px 100% repeat-x;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
 }
 
 .letralogo {
