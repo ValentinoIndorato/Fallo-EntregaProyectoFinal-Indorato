@@ -2,32 +2,28 @@ ol,
 ul,
 li {
     text-decoration: none;
-    list-style: none; /*padding: 0; agrgar al terminar*/
+    list-style: none;
+    padding: 0;
     font-size: 18px;
-    
 }
 .li-paraelegir {
-    
-
     .li__ul-paralegir {
-       
         display: grid;
         justify-content: center;
         align-items: center;
         padding: 0;
-        
-    /*que es esto? grid-auto-columns: 1fr;*/
-    grid-template-columns: 30% 30% 30%;
-    grid-template-rows: min-content min-content min-content min-content;
-    gap: 0px 0px;
-    grid-template-areas:
-        "bochagrid dosbochasgrid tresbochasgrid"
-        "barquillogrid ... pinitogrid"
-        "cuartokgrid mediokgrid kgrid"
-        "bañochoco bañochoco bañochoco";
-        
+
+        /*que es esto? grid-auto-columns: 1fr;*/
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: min-content min-content min-content min-content;
+        gap: 0px 0px;
+        grid-template-areas:
+            "bochagrid dosbochasgrid tresbochasgrid"
+            "barquillogrid ... pinitogrid"
+            "cuartokgrid mediokgrid kgrid"
+            "bañochoco bañochoco bañochoco";
+
         li {
-            
             img {
                 width: 25%;
             }
@@ -42,136 +38,247 @@ li {
 /*------ grid area----*/
 .bochagrid {
     grid-area: bochagrid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    div{
+        margin: 1rem;
+    }
 }
 .dosbochasgrid {
     grid-area: dosbochasgrid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    div{
+        margin: 1rem;
+    }
 }
 .tresbochasgrid {
     grid-area: tresbochasgrid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    div{
+        margin: 1rem;
+    }
 }
 .barquillogrid {
     grid-area: barquillogrid;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    div {
+        width: 15%;
+        text-align: left;
+        margin: 1rem;
+    }
 }
 .pinitogrid {
     grid-area: pinitogrid;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    div {
+        width: 10%;
+        text-align: left;
+        margin: 1rem 1rem 1rem 2.5rem;
+    }
 }
 .cuartokgrid {
     grid-area: cuartokgrid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    div{
+        margin: 1rem;
+    }
 }
 .mediokgrid {
     grid-area: mediokgrid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    div{
+        margin: 1rem;
+    }
 }
 .kgrid {
     grid-area: kgrid;
-}
-.bañochoco {
-    grid-area: bañochoco;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    div{
+        margin: 1rem;
+    }
 }
 
 .bañochoco {
+    grid-area: bañochoco;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: aliceblue;
-    border: 0.2rem solid black;
+    background-color: rgb(254, 255, 240);
+    border: 0.1rem solid black;
     width: auto;
-    
+    margin: 1rem;
     .bañochoco_p {
-        padding: 0 0 0 0;
+        padding: 0;
     }
 }
-.li-postres {
-    .li__ul-postres {
+.postres {
+    justify-content: center;
+    .ul__postres {
+        background-color: rgb(210, 105, 30);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 1rem;
+        .li__postres {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            background-color: rgb(210, 105, 30);
+            margin: 0 1% 0 1%;
+            .div-precios {
+                display: flex;
+                flex-wrap: wrap;
+                p {
+                    width: auto;
+                }
+                .p__preciounidad {
+                    margin: 0 0.5rem 0 0;
+                }
+            }
+        }
+        .unidad {
+            position: absolute;
+            top: auto;
+            right: 70px;
+            background-color: aliceblue;
+        }
+        .seisunidades {
+            display: none;
+            position: absolute;
+            right: 0;
+        }
+    }
+}
+.unidad {
+    position: absolute;
+    top: auto;
+    right: 70px;
+    background-color: aliceblue;
+}
+.seisunidades {
+    position: absolute;
+    top: auto;
+    right: 0;
+    background-color: aliceblue;
+}
+.familiares {
+    .ul__familiares {
+        background-color: rgb(210, 105, 30);
         padding: 0;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        .ul__li-postres {
-            display: flex;
-            justify-content: space-between;
-            width: 100%;
-            background-color: rgb(210, 105, 30);
-            
-            .div-precios {
-                display: flex;
-                justify-content: space-around;
-                
-                p { 
-                    
-                    
-                    margin:0 5% 0 5%;
-                    
-                }
-            }
-        }
-        .unidad{display: none; 
-            position: absolute;top: 62vw;
-            background-color: aliceblue;
-            right:  6vw;  }
-        .seisunidades {display: none; 
-            position: absolute;
-            right:  0;
-            
-        }
-    }
-}
-
-.familiares {
-    justify-content: center;
-    .ul__familiares {background-color: rgb(210, 105, 30);
-        padding: 0;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
+        margin: 1rem;
         .li__familiares {
             padding: 0;
-            width: 50%;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 0 1% 0 1%;
+            p {
+                width: auto;
+            }
         }
-        /*.li__familiaresPrecio{
-        }*/
     }
 }
 .tortas {
     justify-content: center;
-    .ul__tortas { background-color: rgb(210, 105, 30);
+    .ul__tortas {
+        background-color: rgb(210, 105, 30);
         padding: 0;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
+        margin: 1rem;
         .li__tortas {
-            width: 50%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 0 1% 0 1%;
+            p {
+                width: auto;
+            }
         }
-        /*.li__tortasprecio {
-        }*/
     }
 }
 .antojos {
     justify-content: center;
-    .ul__antojos {background-color: rgb(210, 105, 30);
+    .ul__antojos {
+        background-color: rgb(210, 105, 30);
         padding: 0;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
+        margin: 1rem;
         .li__antojos {
-            width: 50%;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 0 1% 0 1%;
+            p {
+                width: auto;
+            }
+            .p__preciounidad {
+                margin: 0 0.5rem 0 0;
+            }
+            div {
+                display: flex;
+            }
         }
     }
 }
-.unidadantojo,
+.unidadantojo {
+    position: absolute;
+    top: auto;
+    right: 70px;
+    background-color: aliceblue;
+}
 .unidadesantojo {
     position: absolute;
-    top: 8vw;
+    top: auto;
+    right: 0;
+    background-color: aliceblue;
 }
 .copas {
     justify-content: center;
-    .ul__copas {background-color: rgb(210, 105, 30);
+    .ul__copas {
+        background-color: rgb(210, 105, 30);
         padding: 0;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
+        margin: 1rem;
         .li__copas {
-            width: 50%;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 0 1rem 0 1rem;
+            p {
+                width: auto;
+            }
         }
     }
 }
-.texto-hover:hover { color: rgb(253, 245, 2); span{color:black ;}}
+.texto-hover:hover {
+    color: rgb(253, 245, 2);
+    span {
+        color: black;
+    }
+}

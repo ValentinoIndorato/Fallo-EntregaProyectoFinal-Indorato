@@ -195,7 +195,8 @@ ol,
 ul,
 li {
   text-decoration: none;
-  list-style: none; /*padding: 0; agrgar al terminar*/
+  list-style: none;
+  padding: 0;
   font-size: 18px;
 }
 
@@ -209,7 +210,7 @@ li {
           align-items: center;
   padding: 0;
   /*que es esto? grid-auto-columns: 1fr;*/
-  grid-template-columns: 30% 30% 30%;
+  grid-template-columns: 33% 33% 33%;
   grid-template-rows: -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content;
   grid-template-rows: min-content min-content min-content min-content;
   gap: 0px 0px;
@@ -227,41 +228,149 @@ li {
 /*------ grid area----*/
 .bochagrid {
   grid-area: bochagrid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.bochagrid div {
+  margin: 1rem;
 }
 
 .dosbochasgrid {
   grid-area: dosbochasgrid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.dosbochasgrid div {
+  margin: 1rem;
 }
 
 .tresbochasgrid {
   grid-area: tresbochasgrid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.tresbochasgrid div {
+  margin: 1rem;
 }
 
 .barquillogrid {
   grid-area: barquillogrid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+.barquillogrid div {
+  width: 15%;
+  text-align: left;
+  margin: 1rem;
 }
 
 .pinitogrid {
   grid-area: pinitogrid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+.pinitogrid div {
+  width: 10%;
+  text-align: left;
+  margin: 1rem 1rem 1rem 2.5rem;
 }
 
 .cuartokgrid {
   grid-area: cuartokgrid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.cuartokgrid div {
+  margin: 1rem;
 }
 
 .mediokgrid {
   grid-area: mediokgrid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.mediokgrid div {
+  margin: 1rem;
 }
 
 .kgrid {
   grid-area: kgrid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.kgrid div {
+  margin: 1rem;
 }
 
 .bañochoco {
   grid-area: bañochoco;
-}
-
-.bañochoco {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -270,66 +379,22 @@ li {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: aliceblue;
-  border: 0.2rem solid black;
+  background-color: rgb(254, 255, 240);
+  border: 0.1rem solid black;
   width: auto;
+  margin: 1rem;
 }
 .bañochoco .bañochoco_p {
-  padding: 0 0 0 0;
+  padding: 0;
 }
 
-.li-postres .li__ul-postres {
-  padding: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+.postres {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
-.li-postres .li__ul-postres .ul__li-postres {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 100%;
+.postres .ul__postres {
   background-color: rgb(210, 105, 30);
-}
-.li-postres .li__ul-postres .ul__li-postres .div-precios {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-.li-postres .li__ul-postres .ul__li-postres .div-precios p {
-  margin: 0 5% 0 5%;
-}
-.li-postres .li__ul-postres .unidad {
-  display: none;
-  position: absolute;
-  top: 62vw;
-  background-color: aliceblue;
-  right: 6vw;
-}
-.li-postres .li__ul-postres .seisunidades {
-  display: none;
-  position: absolute;
-  right: 0;
-}
-
-.familiares {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-.familiares .ul__familiares {
-  background-color: rgb(210, 105, 30);
-  padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -338,12 +403,88 @@ li {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  /*.li__familiaresPrecio{
-  }*/
+  margin: 1rem;
+}
+.postres .ul__postres .li__postres {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: rgb(210, 105, 30);
+  margin: 0 1% 0 1%;
+}
+.postres .ul__postres .li__postres .div-precios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.postres .ul__postres .li__postres .div-precios p {
+  width: auto;
+}
+.postres .ul__postres .li__postres .div-precios .p__preciounidad {
+  margin: 0 0.5rem 0 0;
+}
+.postres .ul__postres .unidad {
+  position: absolute;
+  top: auto;
+  right: 70px;
+  background-color: aliceblue;
+}
+.postres .ul__postres .seisunidades {
+  display: none;
+  position: absolute;
+  right: 0;
+}
+
+.unidad {
+  position: absolute;
+  top: auto;
+  right: 70px;
+  background-color: aliceblue;
+}
+
+.seisunidades {
+  position: absolute;
+  top: auto;
+  right: 0;
+  background-color: aliceblue;
+}
+
+.familiares .ul__familiares {
+  background-color: rgb(210, 105, 30);
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 1rem;
 }
 .familiares .ul__familiares .li__familiares {
   padding: 0;
-  width: 50%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 1% 0 1%;
+}
+.familiares .ul__familiares .li__familiares p {
+  width: auto;
 }
 
 .tortas {
@@ -354,19 +495,21 @@ li {
 .tortas .ul__tortas {
   background-color: rgb(210, 105, 30);
   padding: 0;
+  margin: 1rem;
+}
+.tortas .ul__tortas .li__tortas {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  /*.li__tortasprecio {
-  }*/
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 1% 0 1%;
 }
-.tortas .ul__tortas .li__tortas {
-  width: 50%;
+.tortas .ul__tortas .li__tortas p {
+  width: auto;
 }
 
 .antojos {
@@ -385,15 +528,44 @@ li {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  margin: 1rem;
 }
 .antojos .ul__antojos .li__antojos {
-  width: 50%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 1% 0 1%;
+}
+.antojos .ul__antojos .li__antojos p {
+  width: auto;
+}
+.antojos .ul__antojos .li__antojos .p__preciounidad {
+  margin: 0 0.5rem 0 0;
+}
+.antojos .ul__antojos .li__antojos div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.unidadantojo,
+.unidadantojo {
+  position: absolute;
+  top: auto;
+  right: 70px;
+  background-color: aliceblue;
+}
+
 .unidadesantojo {
   position: absolute;
-  top: 8vw;
+  top: auto;
+  right: 0;
+  background-color: aliceblue;
 }
 
 .copas {
@@ -412,9 +584,22 @@ li {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  margin: 1rem;
 }
 .copas .ul__copas .li__copas {
-  width: 50%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 1rem 0 1rem;
+}
+.copas .ul__copas .li__copas p {
+  width: auto;
 }
 
 .texto-hover:hover {
