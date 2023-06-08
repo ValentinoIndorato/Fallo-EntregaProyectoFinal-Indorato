@@ -444,6 +444,13 @@ li {
           justify-content: space-evenly;
   margin: 1rem;
   text-align: left;
+  padding: 0 0 1rem 0;
+  --mask:
+  radial-gradient(17.49px at 50% calc(100% - 24.00px),#000 99%,#0000 101%) calc(50% - 30px) 0/60px 100%,
+  radial-gradient(17.49px at 50% calc(100% + 9.00px),#0000 99%,#000 101%) 50% calc(100% - 15px)/60px 100% repeat-x;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+  border-radius: 1rem 1rem 0 0;
 }
 .postres .ul__postres .li__postres {
   width: 100%;
@@ -475,15 +482,16 @@ li {
 .unidad {
   position: absolute;
   top: auto;
-  right: 70px;
+  right: 72px;
   background-color: aliceblue;
 }
 
 .seisunidades {
   position: absolute;
   top: auto;
-  right: 0;
+  right: 5px;
   background-color: aliceblue;
+  line-height: 1.2;
 }
 
 .familiares {
@@ -491,7 +499,6 @@ li {
 }
 .familiares .ul__familiares {
   background-color: rgb(210, 105, 30);
-  padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -502,6 +509,13 @@ li {
           justify-content: center;
   margin: 1rem;
   text-align: left;
+  padding: 0 0 1rem 0;
+  --mask:
+  radial-gradient(17.49px at 50% calc(100% - 24.00px),#000 99%,#0000 101%) calc(50% - 30px) 0/60px 100%,
+  radial-gradient(17.49px at 50% calc(100% + 9.00px),#0000 99%,#000 101%) 50% calc(100% - 15px)/60px 100% repeat-x;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+  border-radius: 1rem 1rem 0 0;
 }
 .familiares .ul__familiares .li__familiares {
   padding: 0;
@@ -528,9 +542,15 @@ li {
 }
 .tortas .ul__tortas {
   background-color: rgb(210, 105, 30);
-  padding: 0;
   margin: 1rem;
   text-align: left;
+  padding: 0 0 1rem 0;
+  --mask:
+  radial-gradient(17.49px at 50% calc(100% - 24.00px),#000 99%,#0000 101%) calc(50% - 30px) 0/60px 100%,
+  radial-gradient(17.49px at 50% calc(100% + 9.00px),#0000 99%,#000 101%) 50% calc(100% - 15px)/60px 100% repeat-x;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+  border-radius: 1rem 1rem 0 0;
 }
 .tortas .ul__tortas .li__tortas {
   display: -webkit-box;
@@ -555,7 +575,6 @@ li {
 }
 .antojos .ul__antojos {
   background-color: rgb(210, 105, 30);
-  padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -566,6 +585,13 @@ li {
           justify-content: space-evenly;
   margin: 1rem;
   text-align: left;
+  padding: 0 0 1rem 0;
+  --mask:
+  radial-gradient(17.49px at 50% calc(100% - 24.00px),#000 99%,#0000 101%) calc(50% - 30px) 0/60px 100%,
+  radial-gradient(17.49px at 50% calc(100% + 9.00px),#0000 99%,#000 101%) 50% calc(100% - 15px)/60px 100% repeat-x;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+  border-radius: 1rem 1rem 0 0;
 }
 .antojos .ul__antojos .li__antojos {
   width: 100%;
@@ -594,15 +620,16 @@ li {
 .unidadantojo {
   position: absolute;
   top: auto;
-  right: 70px;
+  right: 72px;
   background-color: aliceblue;
 }
 
 .unidadesantojo {
   position: absolute;
   top: auto;
-  right: 0;
+  right: 5px;
   background-color: aliceblue;
+  line-height: 1.2;
 }
 
 .copas {
@@ -613,7 +640,6 @@ li {
 }
 .copas .ul__copas {
   background-color: rgb(210, 105, 30);
-  padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -624,6 +650,13 @@ li {
           justify-content: space-evenly;
   margin: 1rem;
   text-align: left;
+  padding: 0 0 1rem 0;
+  --mask:
+  radial-gradient(17.49px at 50% calc(100% - 24.00px),#000 99%,#0000 101%) calc(50% - 30px) 0/60px 100%,
+  radial-gradient(17.49px at 50% calc(100% + 9.00px),#0000 99%,#000 101%) 50% calc(100% - 15px)/60px 100% repeat-x;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+  border-radius: 1rem 1rem 0 0;
 }
 .copas .ul__copas .li__copas {
   width: 100%;

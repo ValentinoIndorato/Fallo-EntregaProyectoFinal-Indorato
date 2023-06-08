@@ -139,6 +139,14 @@ li {
         justify-content: space-evenly;
         margin: 1rem;
         text-align: left;
+        padding: 0 0 1rem 0;
+        --mask:
+        radial-gradient(17.49px at 50% calc(100% - 24.00px),#000 99%,#0000 101%) calc(50% - 30px) 0/60px 100%,
+        radial-gradient(17.49px at 50% calc(100% + 9.00px),#0000 99%,#000 101%) 50% calc(100% - 15px)/60px 100% repeat-x;
+      -webkit-mask: var(--mask);
+              mask: var(--mask);
+              border-radius: 1rem 1rem 0 0 ;
+        
         .li__postres {
             width: 100%;
             display: flex;
@@ -163,24 +171,31 @@ li {
 .unidad {
     position: absolute;
     top: auto;
-    right: 70px;
+    right: 72px;
     background-color: aliceblue;
 }
 .seisunidades {
     position: absolute;
     top: auto;
-    right: 0;
+    right: 5px;
     background-color: aliceblue;
+    line-height:1.2;
 }
 .familiares {text-align: center;
     .ul__familiares {
-        background-color: rgb(210, 105, 30);
-        padding: 0;
+        background-color: rgb(210, 105, 30);        
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         margin: 1rem;
         text-align: left;
+        padding: 0 0 1rem 0;
+        --mask:
+        radial-gradient(17.49px at 50% calc(100% - 24.00px),#000 99%,#0000 101%) calc(50% - 30px) 0/60px 100%,
+        radial-gradient(17.49px at 50% calc(100% + 9.00px),#0000 99%,#000 101%) 50% calc(100% - 15px)/60px 100% repeat-x;
+      -webkit-mask: var(--mask);
+              mask: var(--mask);
+              border-radius: 1rem 1rem 0 0 ;
         .li__familiares {
             padding: 0;
             width: 100%;
@@ -198,10 +213,16 @@ li {
     justify-content: center;
     text-align: center;
     .ul__tortas {
-        background-color: rgb(210, 105, 30);
-        padding: 0;
+        background-color: rgb(210, 105, 30);        
         margin: 1rem;
         text-align: left;
+        padding: 0 0 1rem 0;
+        --mask:
+        radial-gradient(17.49px at 50% calc(100% - 24.00px),#000 99%,#0000 101%) calc(50% - 30px) 0/60px 100%,
+        radial-gradient(17.49px at 50% calc(100% + 9.00px),#0000 99%,#000 101%) 50% calc(100% - 15px)/60px 100% repeat-x;
+      -webkit-mask: var(--mask);
+              mask: var(--mask);
+              border-radius: 1rem 1rem 0 0 ;
         .li__tortas {
             display: flex;
             flex-wrap: wrap;
@@ -217,13 +238,19 @@ li {
     justify-content: center;
     text-align: center;
     .ul__antojos {
-        background-color: rgb(210, 105, 30);
-        padding: 0;
+        background-color: rgb(210, 105, 30);        
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
         margin: 1rem;
         text-align: left;
+        padding: 0 0 1rem 0;
+        --mask:
+        radial-gradient(17.49px at 50% calc(100% - 24.00px),#000 99%,#0000 101%) calc(50% - 30px) 0/60px 100%,
+        radial-gradient(17.49px at 50% calc(100% + 9.00px),#0000 99%,#000 101%) 50% calc(100% - 15px)/60px 100% repeat-x;
+      -webkit-mask: var(--mask);
+              mask: var(--mask);
+              border-radius: 1rem 1rem 0 0 ;
         .li__antojos {
             width: 100%;
             display: flex;
@@ -245,26 +272,33 @@ li {
 .unidadantojo {
     position: absolute;
     top: auto;
-    right: 70px;
+    right: 72px;
     background-color: aliceblue;
 }
 .unidadesantojo {
     position: absolute;
     top: auto;
-    right: 0;
+    right: 5px;
     background-color: aliceblue;
+    line-height:1.2;
 }
 .copas {
     justify-content: center;
     text-align: center;
     .ul__copas {
-        background-color: rgb(210, 105, 30);
-        padding: 0;
+        background-color: rgb(210, 105, 30);        
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
         margin: 1rem;
         text-align: left;
+        padding: 0 0 1rem 0;
+        --mask:
+        radial-gradient(17.49px at 50% calc(100% - 24.00px),#000 99%,#0000 101%) calc(50% - 30px) 0/60px 100%,
+        radial-gradient(17.49px at 50% calc(100% + 9.00px),#0000 99%,#000 101%) 50% calc(100% - 15px)/60px 100% repeat-x;
+      -webkit-mask: var(--mask);
+              mask: var(--mask);
+              border-radius: 1rem 1rem 0 0 ;
         .li__copas {
             width: 100%;
             display: flex;
