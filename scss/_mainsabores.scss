@@ -6,12 +6,21 @@
     
     section{
         width: 16rem;
-        height: 16rem;
+        height: 17rem;
         background-color: rgb(210, 105, 30);
         margin: 10% 1% 10% 1%;
         padding: 1%;
+        
+              /*11px*/--mask:
+              radial-gradient(12.83px at 50% calc(100% - 17.60px),#000 99%,#0000 101%) calc(50% - 22px) 0/44px 100%,
+              radial-gradient(12.83px at 50% calc(100% + 6.60px),#0000 99%,#000 101%) 50% calc(100% - 11px)/44px 100% repeat-x;
+            -webkit-mask: var(--mask);
+                    mask: var(--mask);
+                    border-radius: 100px 100% 10% 10% / 40% 700px 50% 10%;
+                    
+                     
     .ul--sabores {font-weight: 700;
-        padding: 0%;
+        padding: 0 0 1rem 0;
         
         
     }}
