@@ -6,12 +6,14 @@ li {
     padding: 0;
     font-size: 18px;
 }
-.li-paraelegir {
-    .li__ul-paralegir {
+.paraelegir { text-align: center;
+    margin: 1rem 0 1rem 0;
+    .ul__paralegir {
         display: grid;
         justify-content: center;
         align-items: center;
         padding: 0;
+        margin: 1rem 0 0 0;
 
         /*que es esto? grid-auto-columns: 1fr;*/
         grid-template-columns: 33% 33% 33%;
@@ -129,12 +131,14 @@ li {
 }
 .postres {
     justify-content: center;
+   text-align: center;
     .ul__postres {
         background-color: rgb(210, 105, 30);
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
         margin: 1rem;
+        text-align: left;
         .li__postres {
             width: 100%;
             display: flex;
@@ -153,17 +157,7 @@ li {
                 }
             }
         }
-        .unidad {
-            position: absolute;
-            top: auto;
-            right: 70px;
-            background-color: aliceblue;
-        }
-        .seisunidades {
-            display: none;
-            position: absolute;
-            right: 0;
-        }
+       
     }
 }
 .unidad {
@@ -178,7 +172,7 @@ li {
     right: 0;
     background-color: aliceblue;
 }
-.familiares {
+.familiares {text-align: center;
     .ul__familiares {
         background-color: rgb(210, 105, 30);
         padding: 0;
@@ -186,6 +180,7 @@ li {
         flex-wrap: wrap;
         justify-content: center;
         margin: 1rem;
+        text-align: left;
         .li__familiares {
             padding: 0;
             width: 100%;
@@ -201,10 +196,12 @@ li {
 }
 .tortas {
     justify-content: center;
+    text-align: center;
     .ul__tortas {
         background-color: rgb(210, 105, 30);
         padding: 0;
         margin: 1rem;
+        text-align: left;
         .li__tortas {
             display: flex;
             flex-wrap: wrap;
@@ -218,6 +215,7 @@ li {
 }
 .antojos {
     justify-content: center;
+    text-align: center;
     .ul__antojos {
         background-color: rgb(210, 105, 30);
         padding: 0;
@@ -225,6 +223,7 @@ li {
         flex-wrap: wrap;
         justify-content: space-evenly;
         margin: 1rem;
+        text-align: left;
         .li__antojos {
             width: 100%;
             display: flex;
@@ -257,6 +256,7 @@ li {
 }
 .copas {
     justify-content: center;
+    text-align: center;
     .ul__copas {
         background-color: rgb(210, 105, 30);
         padding: 0;
@@ -264,6 +264,7 @@ li {
         flex-wrap: wrap;
         justify-content: space-evenly;
         margin: 1rem;
+        text-align: left;
         .li__copas {
             width: 100%;
             display: flex;
