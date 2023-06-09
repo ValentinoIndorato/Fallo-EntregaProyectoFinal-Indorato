@@ -56,7 +56,6 @@ body {
 
 /*-----_mainindex----*/
 .indexNuevo {
-  width: auto;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -85,7 +84,7 @@ body {
 .indexNuevo .section__indexNuevo .p__indexNuevo {
   background-color: aliceblue;
   border-radius: 45%;
-  padding: 1;
+  padding: 0 2.5% 5rem 2.5%;
   margin: 0;
   height: 50%;
   font-size: auto;
@@ -109,23 +108,31 @@ body {
           transform: scale(2);
 }
 .indexNuevo .section__indexNuevo .p__indexNuevo a {
-  padding: 2rem;
+  padding: 0;
   font-size: xx-large;
+  text-decoration: none;
 }
 .indexNuevo .section__indexNuevo .h1__g {
   background-color: aqua;
   padding: 0 1rem 0 1rem;
-  --mask: radial-gradient(13.44px at 18.8px 50%, #000 99%, #0000 101%) 0 calc(50% - 16px) / 51% 32px repeat-y,
+  /*--mask: radial-gradient(13.44px at 18.8px 50%, #000 99%, #0000 101%) 0 calc(50% - 16px) / 51% 32px repeat-y,
       radial-gradient(13.44px at -10.8px 50%, #0000 99%, #000 101%) 8px 50% / calc(51% - 8px) 32px repeat-y,
       radial-gradient(13.44px at calc(100% - 18.8px) 50%, #000 99%, #0000 101%) 100% calc(50% - 16px) / 51%
           32px repeat-y,
       radial-gradient(13.44px at calc(100% + 10.8px) 50%, #0000 99%, #000 101%) calc(100% - 8px) 50% /
-          calc(51% - 8px) 32px repeat-y;
+          calc(51% - 8px) 32px repeat-y;                
+  -webkit-mask: var(--mask);
+  mask: var(--mask);*/
+  border-radius: 45% 45% 5% 5%;
+  --mask:
+  radial-gradient(4.00px at 50% calc(100% - 4.00px),#000 99%,#0000 101%) calc(50% - 8px) 0/16px 100%,
+  radial-gradient(4.00px at 50% calc(100% + 0.00px),#0000 99%,#000 101%) 50% calc(100% - 4px)/16px 100% repeat-x;
   -webkit-mask: var(--mask);
   mask: var(--mask);
 }
 .indexNuevo .section__indexNuevo .h1__g a {
   font-size: 50px;
+  text-decoration: none;
 }
 .indexNuevo .section__indexNuevo .h1__g:hover {
   -webkit-transform: scale(1.5);
