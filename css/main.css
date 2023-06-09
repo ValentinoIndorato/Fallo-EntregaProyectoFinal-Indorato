@@ -109,7 +109,7 @@ body {
 }
 .indexNuevo .section__indexNuevo .p__indexNuevo a {
   padding: 0;
-  font-size: xx-large;
+  font-size: clamp(1.8rem, 3.5vw, 2rem);
   text-decoration: none;
 }
 .indexNuevo .section__indexNuevo .h1__g {
@@ -866,22 +866,18 @@ footer .divDirecciones ul li a {
   body {
     background-color: rgb(255, 251, 130);
   }
-  body .indexNuevo .section__indexNuevo {
-    font-size: xx-large;
-  }
   body .indexNuevo .section__indexNuevo .p__indexNuevo {
-    padding: 0;
+    padding: 1rem 0 1rem 0;
   }
   body .indexNuevo .section__indexNuevo .p__indexNuevo:hover {
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
   }
   body .indexNuevo .section__indexNuevo .p__indexNuevo a {
-    padding: 0.5rem;
+    padding: 0;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-    font-size: 18px;
   }
   body .cardSabores section {
     height: 15rem;
@@ -948,9 +944,6 @@ footer .divDirecciones ul li a {
   }
 }
 @media screen and (max-width: 445px) {
-  .indexNuevo .section__indexNuevo {
-    font-size: xx-large;
-  }
   .indexNuevo .section__indexNuevo .p__indexNuevo {
     padding: 1rem;
   }

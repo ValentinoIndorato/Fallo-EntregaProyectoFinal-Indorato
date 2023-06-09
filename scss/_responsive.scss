@@ -1,16 +1,19 @@
-
-
 /*-----max 426----*/
 @media screen and (max-width: 426px) {
     body {
         background-color: rgb(255, 251, 130);
         .indexNuevo {
-            .section__indexNuevo{ .p__indexNuevo{ padding: 0;&:hover {
-                transform: scale(1.2); 
-            }a{padding: 0.5rem;justify-content: space-evenly;font-size: 18px;}
-
-            }
-                font-size: xx-large;
+            .section__indexNuevo {
+                .p__indexNuevo {
+                    padding: 1rem 0 1rem 0;
+                    &:hover {
+                        transform: scale(1.2);
+                    }
+                    a {
+                        padding: 0;
+                        justify-content: space-evenly;
+                    }
+                }
             }
         }
         .cardSabores {
@@ -66,19 +69,33 @@
                 }
             }
         }
-        .DeliveryMain { h2{text-align: center;} .deliverySection{ margin: 0; }
+        .DeliveryMain {
+            h2 {
+                text-align: center;
+            }
+            .deliverySection {
+                margin: 0;
+            }
         }
     }
 }
-@media screen and (max-width: 445px) {.indexNuevo {
-    .section__indexNuevo{ .p__indexNuevo{ padding: 1rem;&:hover {
-        transform: scale(1.2);
-    }a{padding: 0.5rem;justify-content: space-evenly;}
-
+@media screen and (max-width: 445px) {
+    .indexNuevo {
+        .section__indexNuevo {
+            .p__indexNuevo {
+                padding: 1rem;
+                &:hover {
+                    transform: scale(1.2);
+                }
+                a {
+                    padding: 0.5rem;
+                    justify-content: space-evenly;
+                }
+            }
+            
+        }
     }
-        font-size: xx-large;
-    }
-}}
+}
 /*-----min 992----*/
 @media screen and (min-width: 992px) {
     body {
