@@ -84,7 +84,7 @@ body {
 .indexNuevo .section__indexNuevo .p__indexNuevo {
   background-color: aliceblue;
   border-radius: 45%;
-  padding: 0 2.5% 5rem 2.5%;
+  padding: 0 2rem 5rem 2rem;
   margin: 0;
   height: 50%;
   font-size: auto;
@@ -941,6 +941,24 @@ footer .divDirecciones ul li a {
   }
   body .DeliveryMain .deliverySection {
     margin: 0;
+  }
+}
+@media screen and (max-width: 445px) {
+  .indexNuevo .section__indexNuevo {
+    font-size: xx-large;
+  }
+  .indexNuevo .section__indexNuevo .p__indexNuevo {
+    padding: 1rem;
+  }
+  .indexNuevo .section__indexNuevo .p__indexNuevo:hover {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  .indexNuevo .section__indexNuevo .p__indexNuevo a {
+    padding: 0.5rem;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
   }
 }
 /*-----min 992----*/
