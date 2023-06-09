@@ -25,4 +25,5 @@
     }
 }
 }
-.texto-hover:hover { color: rgb(253, 245, 2); span{color:black ;}}
+.texto-hover:hover,
+.texto-hove:focus { color: rgb(253, 245, 2); span{ transition: 6s; text-decoration: underline; color:black ; text-decoration: underline; background-size: 0 0.1em, 100% 0.1em;}}

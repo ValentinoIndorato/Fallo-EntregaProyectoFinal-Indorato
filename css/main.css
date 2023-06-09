@@ -103,10 +103,9 @@ body {
           repeat-x;
   -webkit-mask: var(--mask);
   mask: var(--mask);
-}
-.indexNuevo .section__indexNuevo .p__indexNuevo:hover {
-  -webkit-transform: scale(2);
-          transform: scale(2);
+  /*&:hover {
+      transform: scale(2);
+  }*/
 }
 .indexNuevo .section__indexNuevo .p__indexNuevo a {
   padding: 2rem;
@@ -123,13 +122,12 @@ body {
           calc(51% - 8px) 32px repeat-y;
   -webkit-mask: var(--mask);
   mask: var(--mask);
+  /*&:hover {
+      transform: scale(1.5);
+  }*/
 }
 .indexNuevo .section__indexNuevo .h1__g a {
   font-size: 50px;
-}
-.indexNuevo .section__indexNuevo .h1__g:hover {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
 }
 
 /*-----mainpromociones----*/
@@ -447,9 +445,9 @@ li {
   margin: 1rem;
   text-align: left;
   padding: 0 0 1rem 0;
-  --mask:
-  radial-gradient(17.49px at 50% calc(100% - 24.00px),#000 99%,#0000 101%) calc(50% - 30px) 0/60px 100%,
-  radial-gradient(17.49px at 50% calc(100% + 9.00px),#0000 99%,#000 101%) 50% calc(100% - 15px)/60px 100% repeat-x;
+  --mask: radial-gradient(17.49px at 50% calc(100% - 24px), #000 99%, #0000 101%) calc(50% - 30px) 0/60px 100%,
+      radial-gradient(17.49px at 50% calc(100% + 9px), #0000 99%, #000 101%) 50% calc(100% - 15px) / 60px 100%
+          repeat-x;
   -webkit-mask: var(--mask);
   mask: var(--mask);
   border-radius: 1rem 1rem 0 0;
@@ -513,12 +511,14 @@ li {
   text-align: left;
   padding: 0 0 1rem 0;
   /*15px*/
-  --mask:
-  radial-gradient(17.49px at 50% calc(100% - 24.00px),#000 99%,#0000 101%) calc(50% - 30px) 0/60px 100%,
-  radial-gradient(17.49px at 50% calc(100% + 9.00px),#0000 99%,#000 101%) 50% calc(100% - 15px)/60px 100% repeat-x;
+  --mask: radial-gradient(17.49px at 50% calc(100% - 24px), #000 99%, #0000 101%) calc(50% - 30px) 0/60px 100%,
+      radial-gradient(17.49px at 50% calc(100% + 9px), #0000 99%, #000 101%) 50% calc(100% - 15px) / 60px 100%
+          repeat-x;
   -webkit-mask: var(--mask);
   mask: var(--mask);
   border-radius: 1rem 1rem 0 0;
+  border: 5px solid #010101;
+  border-style: dotted;
 }
 .familiares .ul__familiares .li__familiares {
   padding: 0;
@@ -548,9 +548,9 @@ li {
   margin: 1rem;
   text-align: left;
   padding: 0 0 1rem 0;
-  --mask:
-  radial-gradient(17.49px at 50% calc(100% - 24.00px),#000 99%,#0000 101%) calc(50% - 30px) 0/60px 100%,
-  radial-gradient(17.49px at 50% calc(100% + 9.00px),#0000 99%,#000 101%) 50% calc(100% - 15px)/60px 100% repeat-x;
+  --mask: radial-gradient(17.49px at 50% calc(100% - 24px), #000 99%, #0000 101%) calc(50% - 30px) 0/60px 100%,
+      radial-gradient(17.49px at 50% calc(100% + 9px), #0000 99%, #000 101%) 50% calc(100% - 15px) / 60px 100%
+          repeat-x;
   -webkit-mask: var(--mask);
   mask: var(--mask);
   border-radius: 1rem 1rem 0 0;
@@ -589,9 +589,9 @@ li {
   margin: 1rem;
   text-align: left;
   padding: 0 0 1rem 0;
-  --mask:
-  radial-gradient(17.49px at 50% calc(100% - 24.00px),#000 99%,#0000 101%) calc(50% - 30px) 0/60px 100%,
-  radial-gradient(17.49px at 50% calc(100% + 9.00px),#0000 99%,#000 101%) 50% calc(100% - 15px)/60px 100% repeat-x;
+  --mask: radial-gradient(17.49px at 50% calc(100% - 24px), #000 99%, #0000 101%) calc(50% - 30px) 0/60px 100%,
+      radial-gradient(17.49px at 50% calc(100% + 9px), #0000 99%, #000 101%) 50% calc(100% - 15px) / 60px 100%
+          repeat-x;
   -webkit-mask: var(--mask);
   mask: var(--mask);
   border-radius: 1rem 1rem 0 0;
@@ -654,9 +654,9 @@ li {
   margin: 1rem;
   text-align: left;
   padding: 0 0 1rem 0;
-  --mask:
-  radial-gradient(17.49px at 50% calc(100% - 24.00px),#000 99%,#0000 101%) calc(50% - 30px) 0/60px 100%,
-  radial-gradient(17.49px at 50% calc(100% + 9.00px),#0000 99%,#000 101%) 50% calc(100% - 15px)/60px 100% repeat-x;
+  --mask: radial-gradient(17.49px at 50% calc(100% - 24px), #000 99%, #0000 101%) calc(50% - 30px) 0/60px 100%,
+      radial-gradient(17.49px at 50% calc(100% + 9px), #0000 99%, #000 101%) 50% calc(100% - 15px) / 60px 100%
+          repeat-x;
   -webkit-mask: var(--mask);
   mask: var(--mask);
   border-radius: 1rem 1rem 0 0;
@@ -727,11 +727,18 @@ li {
   width: auto;
 }
 
-.texto-hover:hover {
+.texto-hover:hover,
+.texto-hove:focus {
   color: rgb(253, 245, 2);
 }
-.texto-hover:hover span {
+.texto-hover:hover span,
+.texto-hove:focus span {
+  -webkit-transition: 6s;
+  transition: 6s;
+  text-decoration: underline;
   color: black;
+  text-decoration: underline;
+  background-size: 0 0.1em, 100% 0.1em;
 }
 
 /*-----_maindelivery----*/
