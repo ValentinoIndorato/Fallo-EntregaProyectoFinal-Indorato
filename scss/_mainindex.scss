@@ -1,4 +1,5 @@
 .indexNuevo {
+    width: auto;
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
@@ -11,13 +12,11 @@
         height: 25%;
         .p__indexNuevo {
             background-color: aliceblue;
-        
-            border-radius: 45% ;
-            padding: 1.0;
-            margin: 0;
-            
 
-            
+            border-radius: 45%;
+            padding: 1;
+            margin: 0;
+
             height: 50%;
             font-size: auto;
             text-align: center;
@@ -28,21 +27,22 @@
     radial-gradient(1.80rem at 1rem calc(100% + 1.50rem),#0000 99%,#000 101%) 50% calc(100% - 1rem)/4rem calc(51% - 1rem) repeat-x;
   -webkit-mask: var(--mask);
           mask: var(--mask);*/
-          /*10px*/--mask:
-    radial-gradient(17.49px at 50% calc(100% - 24.00px),#000 99%,#0000 101%) calc(50% - 30px) 0/60px 100%,
-    radial-gradient(17.49px at 50% calc(100% + 9.00px),#0000 99%,#000 101%) 50% calc(100% - 15px)/60px 100% repeat-x;
-  -webkit-mask: var(--mask);
-          mask: var(--mask);
+            /*10px*/
+            --mask: radial-gradient(17.49px at 50% calc(100% - 24px), #000 99%, #0000 101%) calc(50% - 30px) 0/60px 100%,
+                radial-gradient(17.49px at 50% calc(100% + 9px), #0000 99%, #000 101%) 50% calc(100% - 15px) / 60px 100%
+                    repeat-x;
+            -webkit-mask: var(--mask);
+            mask: var(--mask);
             &:hover {
                 transform: scale(2);
             }
 
-            a { 
+            a {
                 padding: 2rem;
-                font-size:xx-large;
+                font-size: xx-large;
             }
         }
-        .h1__g { 
+        .h1__g {
             background-color: aqua;
             padding: 0 1rem 0 1rem;
             --mask: radial-gradient(13.44px at 18.8px 50%, #000 99%, #0000 101%) 0 calc(50% - 16px) / 51% 32px repeat-y,
@@ -53,9 +53,8 @@
                     calc(51% - 8px) 32px repeat-y;
             -webkit-mask: var(--mask);
             mask: var(--mask);
-            a { 
-                
-                font-size:100px;
+            a {
+                font-size: 50px;
             }
             &:hover {
                 transform: scale(1.5);

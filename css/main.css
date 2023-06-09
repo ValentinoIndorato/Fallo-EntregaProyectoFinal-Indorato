@@ -56,6 +56,7 @@ body {
 
 /*-----_mainindex----*/
 .indexNuevo {
+  width: auto;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -97,9 +98,9 @@ body {
   -webkit-mask: var(--mask);
           mask: var(--mask);*/
   /*10px*/
-  --mask:
-  radial-gradient(17.49px at 50% calc(100% - 24.00px),#000 99%,#0000 101%) calc(50% - 30px) 0/60px 100%,
-  radial-gradient(17.49px at 50% calc(100% + 9.00px),#0000 99%,#000 101%) 50% calc(100% - 15px)/60px 100% repeat-x;
+  --mask: radial-gradient(17.49px at 50% calc(100% - 24px), #000 99%, #0000 101%) calc(50% - 30px) 0/60px 100%,
+      radial-gradient(17.49px at 50% calc(100% + 9px), #0000 99%, #000 101%) 50% calc(100% - 15px) / 60px 100%
+          repeat-x;
   -webkit-mask: var(--mask);
   mask: var(--mask);
 }
@@ -124,7 +125,7 @@ body {
   mask: var(--mask);
 }
 .indexNuevo .section__indexNuevo .h1__g a {
-  font-size: 100px;
+  font-size: 50px;
 }
 .indexNuevo .section__indexNuevo .h1__g:hover {
   -webkit-transform: scale(1.5);
