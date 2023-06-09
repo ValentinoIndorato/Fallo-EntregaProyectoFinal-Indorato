@@ -4,14 +4,13 @@
 @media screen and (max-width: 426px) {
     body {
         background-color: rgb(255, 251, 130);
-        .mainIndex {
-            display: flex;
-            flex-wrap: wrap;
-            .heladoImg {
-                width: 100%;
+        .indexNuevo {
+            .section__indexNuevo{ .p__indexNuevo{&:hover {
+                transform: scale(1.2);
+            }a{padding: 0.5rem;justify-content: space-evenly;}
+
             }
-            .videoIndex {
-                width: 100%;
+                font-size: xx-large;
             }
         }
         .cardSabores {

@@ -15,18 +15,18 @@ body {
   -webkit-mask: var(--mask);
           mask: var(--mask);*/
   /* --mask:
-    radial-gradient(34.99px at 2rem calc(100% - 48.00px),#000 99%,#0000 101%) calc(50% - 60px) 0/120px 100%,
-    radial-gradient(34.99px at 2rem calc(100% + 18.00px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px 100% repeat-x;
-  -webkit-mask: var(--mask);
-          mask: var(--mask);*/
+        radial-gradient(34.99px at 2rem calc(100% - 48.00px),#000 99%,#0000 101%) calc(50% - 60px) 0/120px 100%,
+        radial-gradient(34.99px at 2rem calc(100% + 18.00px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px 100% repeat-x;
+      -webkit-mask: var(--mask);
+              mask: var(--mask);*/
   /*--mask:
-    radial-gradient(27.99px at 50% calc(100% - 38.40px),#000 99%,#0000 101%) calc(50% - 48px) 0/96px 100%,
-    radial-gradient(27.99px at 50% calc(100% + 14.40px),#0000 99%,#000 101%) 50% calc(100% - 24px)/96px 100% repeat-x;
-  -webkit-mask: var(--mask);
-          mask: var(--mask);*/
-  --mask:
-  radial-gradient(36.15px at 50% calc(100% - 49.60px),#000 99%,#0000 101%) calc(50% - 62px) 0/124px 100%,
-  radial-gradient(36.15px at 50% calc(100% + 18.60px),#0000 99%,#000 101%) 50% calc(100% - 31px)/124px 100% repeat-x;
+              radial-gradient(27.99px at 50% calc(100% - 38.40px),#000 99%,#0000 101%) calc(50% - 48px) 0/96px 100%,
+              radial-gradient(27.99px at 50% calc(100% + 14.40px),#0000 99%,#000 101%) 50% calc(100% - 24px)/96px 100% repeat-x;
+            -webkit-mask: var(--mask);
+                    mask: var(--mask);*/
+  --mask: radial-gradient(36.15px at 50% calc(100% - 49.6px), #000 99%, #0000 101%) calc(50% - 62px) 0/124px 100%,
+      radial-gradient(36.15px at 50% calc(100% + 18.6px), #0000 99%, #000 101%) 50% calc(100% - 31px) / 124px 100%
+          repeat-x;
   -webkit-mask: var(--mask);
   mask: var(--mask);
   padding: 0 0 3rem 0;
@@ -103,9 +103,10 @@ body {
           repeat-x;
   -webkit-mask: var(--mask);
   mask: var(--mask);
-  /*&:hover {
-      transform: scale(2);
-  }*/
+}
+.indexNuevo .section__indexNuevo .p__indexNuevo:hover {
+  -webkit-transform: scale(2);
+          transform: scale(2);
 }
 .indexNuevo .section__indexNuevo .p__indexNuevo a {
   padding: 2rem;
@@ -122,12 +123,13 @@ body {
           calc(51% - 8px) 32px repeat-y;
   -webkit-mask: var(--mask);
   mask: var(--mask);
-  /*&:hover {
-      transform: scale(1.5);
-  }*/
 }
 .indexNuevo .section__indexNuevo .h1__g a {
   font-size: 50px;
+}
+.indexNuevo .section__indexNuevo .h1__g:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 /*-----mainpromociones----*/
@@ -857,18 +859,18 @@ footer .divDirecciones ul li a {
   body {
     background-color: rgb(255, 251, 130);
   }
-  body .mainIndex {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+  body .indexNuevo .section__indexNuevo {
+    font-size: xx-large;
   }
-  body .mainIndex .heladoImg {
-    width: 100%;
+  body .indexNuevo .section__indexNuevo .p__indexNuevo:hover {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
   }
-  body .mainIndex .videoIndex {
-    width: 100%;
+  body .indexNuevo .section__indexNuevo .p__indexNuevo a {
+    padding: 0.5rem;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
   }
   body .cardSabores section {
     height: 15rem;

@@ -14,22 +14,22 @@ body {
   -webkit-mask: var(--mask);
           mask: var(--mask);*/
 
-         /* --mask:
+    /* --mask:
           radial-gradient(34.99px at 2rem calc(100% - 48.00px),#000 99%,#0000 101%) calc(50% - 60px) 0/120px 100%,
           radial-gradient(34.99px at 2rem calc(100% + 18.00px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px 100% repeat-x;
         -webkit-mask: var(--mask);
                 mask: var(--mask);*/
-                /*--mask:
+    /*--mask:
                 radial-gradient(27.99px at 50% calc(100% - 38.40px),#000 99%,#0000 101%) calc(50% - 48px) 0/96px 100%,
                 radial-gradient(27.99px at 50% calc(100% + 14.40px),#0000 99%,#000 101%) 50% calc(100% - 24px)/96px 100% repeat-x;
               -webkit-mask: var(--mask);
                       mask: var(--mask);*/
-                      --mask:
-    radial-gradient(36.15px at 50% calc(100% - 49.60px),#000 99%,#0000 101%) calc(50% - 62px) 0/124px 100%,
-    radial-gradient(36.15px at 50% calc(100% + 18.60px),#0000 99%,#000 101%) 50% calc(100% - 31px)/124px 100% repeat-x;
-  -webkit-mask: var(--mask);
-          mask: var(--mask);
-          padding: 0 0 3rem 0;
+    --mask: radial-gradient(36.15px at 50% calc(100% - 49.6px), #000 99%, #0000 101%) calc(50% - 62px) 0/124px 100%,
+        radial-gradient(36.15px at 50% calc(100% + 18.6px), #0000 99%, #000 101%) 50% calc(100% - 31px) / 124px 100%
+            repeat-x;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+    padding: 0 0 3rem 0;
 
     .navbarp__div {
         background-color: rgb(210, 105, 30);
@@ -56,9 +56,7 @@ body {
     }
 }
 
-
-.letralogo {    
-
+.letralogo {
     font-size: 5rem;
     color: rgb(253, 245, 2);
     font-weight: 400;
@@ -82,12 +80,14 @@ body {
 @import "_404.scss";
 /*-----_responsive----*/
 @import "_responsive.scss";
-.prueba{h1 {
-  letter-spacing: 2px;
-  font-size: clamp(1.8rem, 2.5vw, 2.8rem);
-}
+.prueba {
+    h1 {
+        letter-spacing: 2px;
+        font-size: clamp(1.8rem, 2.5vw, 2.8rem);
+    }
 
-p {
-  line-height: 1.5;
-  font-size: max(1.2rem, 1.2vw);
-}}
+    p {
+        line-height: 1.5;
+        font-size: max(1.2rem, 1.2vw);
+    }
+}
