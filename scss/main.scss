@@ -80,14 +80,3 @@ body {
 @import "_404.scss";
 /*-----_responsive----*/
 @import "_responsive.scss";
-.prueba {
-    h1 {
-        letter-spacing: 2px;
-        font-size: clamp(1.8rem, 2.5vw, 2.8rem);
-    }
-
-    p {
-        line-height: 1.5;
-        font-size: max(1.2rem, 1.2vw);
-    }
-}

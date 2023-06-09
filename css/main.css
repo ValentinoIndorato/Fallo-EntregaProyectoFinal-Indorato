@@ -220,16 +220,26 @@ body {
   margin: 10% 1% 10% 1%;
   padding: 1%;
   /*11px*/
-  --mask:
-  radial-gradient(12.83px at 50% calc(100% - 17.60px),#000 99%,#0000 101%) calc(50% - 22px) 0/44px 100%,
-  radial-gradient(12.83px at 50% calc(100% + 6.60px),#0000 99%,#000 101%) 50% calc(100% - 11px)/44px 100% repeat-x;
+  --mask: radial-gradient(12.83px at 50% calc(100% - 17.6px), #000 99%, #0000 101%) calc(50% - 22px) 0/44px 100%,
+      radial-gradient(12.83px at 50% calc(100% + 6.6px), #0000 99%, #000 101%) 50% calc(100% - 11px) / 44px 100%
+          repeat-x;
   -webkit-mask: var(--mask);
   mask: var(--mask);
   border-radius: 100px 100% 10% 10%/40% 700px 50% 10%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  /*----Hover----*/
 }
 .sabores section .ul--sabores {
   font-weight: 700;
   padding: 0 0 1rem 0;
+}
+.sabores section .ul--sabores li:hover {
+  color: rgb(253, 245, 2);
+}
+.sabores section:hover h2 {
+  color: rgb(253, 245, 2);
+  text-decoration: underline;
 }
 
 /*-----mainproductos----*/
@@ -1056,12 +1066,4 @@ footer .divDirecciones ul li a {
   body .cafeteriaArticle .cafeteria1 ul {
     margin: 2rem;
   }
-}
-.prueba h1 {
-  letter-spacing: 2px;
-  font-size: clamp(1.8rem, 2.5vw, 2.8rem);
-}
-.prueba p {
-  line-height: 1.5;
-  font-size: max(1.2rem, 1.2vw);
 }
