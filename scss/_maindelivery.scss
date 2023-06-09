@@ -1,27 +1,36 @@
 .DeliveryMain {
-    padding:auto;
+    padding: auto;
     margin: 10%;
     align-items: center;
-    
+    text-align: center;
+    background-color: rgb(210, 105, 30);
+    --mask:
+    radial-gradient(36.15px at 50% calc(100% - 49.60px),#000 99%,#0000 101%) calc(50% - 62px) 0/124px 100%,
+    radial-gradient(36.15px at 50% calc(100% + 18.60px),#0000 99%,#000 101%) 50% calc(100% - 31px)/124px 100% repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+          padding: 0 0 3rem 0;
+          border-radius: 100px 100px 0 0 ; 
+          h2{ color: rgb(253, 245, 2);padding: 2rem 0 0 0;}
     .deliverySection {
-        
-        
-        background-color: rgb(210, 105, 30); 
+        background-color: rgb(210, 105, 30);
         text-align: center;
         margin: 0.5rem;
         font-size: 30px;
-        display: flex; flex-wrap: wrap; justify-content: space-around;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
         align-items: center;
-        
-        
-        
-           
-        
     }
 }
 
-.sectionpedidosya{ .a-pedidosya{width: 50%; .imgpedidosya {width: 100%; padding: 0; margin: auto; }}}
-/*.texto-hover{display: flex; justify-content: space-between;
+.sectionpedidosya {
+    .a-pedidosya {
+        width: 50%;
+        .imgpedidosya {
+            width: 100%;
+            padding: 0;
+            margin: auto;
+        }
     }
-.texto-hover:hover { color: aqua; span{color:black ;}}*/
-
+}
