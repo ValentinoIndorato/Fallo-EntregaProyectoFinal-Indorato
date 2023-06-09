@@ -869,6 +869,9 @@ footer .divDirecciones ul li a {
   body .indexNuevo .section__indexNuevo {
     font-size: xx-large;
   }
+  body .indexNuevo .section__indexNuevo .p__indexNuevo {
+    padding: 0;
+  }
   body .indexNuevo .section__indexNuevo .p__indexNuevo:hover {
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
@@ -878,6 +881,7 @@ footer .divDirecciones ul li a {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
+    font-size: 18px;
   }
   body .cardSabores section {
     height: 15rem;

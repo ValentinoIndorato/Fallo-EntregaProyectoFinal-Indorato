@@ -5,9 +5,9 @@
     body {
         background-color: rgb(255, 251, 130);
         .indexNuevo {
-            .section__indexNuevo{ .p__indexNuevo{&:hover {
-                transform: scale(1.2);
-            }a{padding: 0.5rem;justify-content: space-evenly;}
+            .section__indexNuevo{ .p__indexNuevo{ padding: 0;&:hover {
+                transform: scale(1.2); 
+            }a{padding: 0.5rem;justify-content: space-evenly;font-size: 18px;}
 
             }
                 font-size: xx-large;
