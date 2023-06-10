@@ -8,23 +8,8 @@ body {
 /*-----Navbar----*/
 .navbarp {
     background-color: rgb(210, 105, 30);
-    /*--mask:
-    radial-gradient(34.99px at 50% calc(100% - 48.00px),#000 99%,#0000 101%) calc(50% - 60px) 0/120px 100%,
-    radial-gradient(34.99px at 50% calc(100% + 18.00px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px 100% repeat-x;
-  -webkit-mask: var(--mask);
-          mask: var(--mask);*/
-
-    /* --mask:
-          radial-gradient(34.99px at 2rem calc(100% - 48.00px),#000 99%,#0000 101%) calc(50% - 60px) 0/120px 100%,
-          radial-gradient(34.99px at 2rem calc(100% + 18.00px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px 100% repeat-x;
-        -webkit-mask: var(--mask);
-                mask: var(--mask);*/
-    /*--mask:
-                radial-gradient(27.99px at 50% calc(100% - 38.40px),#000 99%,#0000 101%) calc(50% - 48px) 0/96px 100%,
-                radial-gradient(27.99px at 50% calc(100% + 14.40px),#0000 99%,#000 101%) 50% calc(100% - 24px)/96px 100% repeat-x;
-              -webkit-mask: var(--mask);
-                      mask: var(--mask);*/
-    /*31px*/--mask: radial-gradient(36.15px at 50% calc(100% - 49.6px), #000 99%, #0000 101%) calc(50% - 62px) 0/124px 100%,
+    /*31px*/
+    --mask: radial-gradient(36.15px at 50% calc(100% - 49.6px), #000 99%, #0000 101%) calc(50% - 62px) 0/124px 100%,
         radial-gradient(36.15px at 50% calc(100% + 18.6px), #0000 99%, #000 101%) 50% calc(100% - 31px) / 124px 100%
             repeat-x;
     -webkit-mask: var(--mask);
@@ -46,7 +31,7 @@ body {
                         color: rgb(253, 245, 2);
                         font-size: 18px;
 
-                        &:hover { 
+                        &:hover {
                             background-color: rgb(253, 245, 2);
                             color: rgb(210, 105, 30);
                         }

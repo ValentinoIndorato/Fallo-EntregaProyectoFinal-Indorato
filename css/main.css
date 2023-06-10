@@ -9,25 +9,10 @@ body {
 /*-----Navbar----*/
 .navbarp {
   background-color: rgb(210, 105, 30);
-  /*--mask:
-    radial-gradient(34.99px at 50% calc(100% - 48.00px),#000 99%,#0000 101%) calc(50% - 60px) 0/120px 100%,
-    radial-gradient(34.99px at 50% calc(100% + 18.00px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px 100% repeat-x;
-  -webkit-mask: var(--mask);
-          mask: var(--mask);*/
-  /* --mask:
-        radial-gradient(34.99px at 2rem calc(100% - 48.00px),#000 99%,#0000 101%) calc(50% - 60px) 0/120px 100%,
-        radial-gradient(34.99px at 2rem calc(100% + 18.00px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px 100% repeat-x;
-      -webkit-mask: var(--mask);
-              mask: var(--mask);*/
-  /*--mask:
-              radial-gradient(27.99px at 50% calc(100% - 38.40px),#000 99%,#0000 101%) calc(50% - 48px) 0/96px 100%,
-              radial-gradient(27.99px at 50% calc(100% + 14.40px),#0000 99%,#000 101%) 50% calc(100% - 24px)/96px 100% repeat-x;
-            -webkit-mask: var(--mask);
-                    mask: var(--mask);*/
   /*31px*/
   --mask: radial-gradient(36.15px at 50% calc(100% - 49.6px), #000 99%, #0000 101%) calc(50% - 62px) 0/124px 100%,
-  radial-gradient(36.15px at 50% calc(100% + 18.6px), #0000 99%, #000 101%) 50% calc(100% - 31px) / 124px 100%
-      repeat-x;
+      radial-gradient(36.15px at 50% calc(100% + 18.6px), #0000 99%, #000 101%) 50% calc(100% - 31px) / 124px 100%
+          repeat-x;
   -webkit-mask: var(--mask);
   mask: var(--mask);
   padding: 0 0 3rem 0;
@@ -56,10 +41,6 @@ body {
 }
 
 /*-----_slider----*/
-.h1Productos {
-  margin: 0 0 0 0.5rem;
-}
-
 .posicionSlider {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -161,13 +142,6 @@ body {
   height: 50%;
   font-size: auto;
   text-align: center;
-  /*--mask:
-    radial-gradient(1.80rem at 1rem 2.50rem,#000 99%,#0000 101%) calc(50% - 2rem) 0/4rem 51% repeat-x,
-    radial-gradient(1.80rem at 1rem -1.5rem,#0000 99%,#000 101%) 50% 1rem/4rem calc(51% - 1rem) repeat-x,
-    radial-gradient(1.80rem at 1rem calc(100% - 2.50rem),#000 99%,#0000 101%) calc(50% - 2rem) 100%/4rem 51% repeat-x,
-    radial-gradient(1.80rem at 1rem calc(100% + 1.50rem),#0000 99%,#000 101%) 50% calc(100% - 1rem)/4rem calc(51% - 1rem) repeat-x;
-  -webkit-mask: var(--mask);
-          mask: var(--mask);*/
   /*10px*/
   --mask: radial-gradient(17.49px at 50% calc(100% - 24px), #000 99%, #0000 101%) calc(50% - 30px) 0/60px 100%,
       radial-gradient(17.49px at 50% calc(100% + 9px), #0000 99%, #000 101%) 50% calc(100% - 15px) / 60px 100%
@@ -187,18 +161,10 @@ body {
 .indexNuevo .section__indexNuevo .h1__g {
   background-color: aqua;
   padding: 0 1rem 0 1rem;
-  /*--mask: radial-gradient(13.44px at 18.8px 50%, #000 99%, #0000 101%) 0 calc(50% - 16px) / 51% 32px repeat-y,
-      radial-gradient(13.44px at -10.8px 50%, #0000 99%, #000 101%) 8px 50% / calc(51% - 8px) 32px repeat-y,
-      radial-gradient(13.44px at calc(100% - 18.8px) 50%, #000 99%, #0000 101%) 100% calc(50% - 16px) / 51%
-          32px repeat-y,
-      radial-gradient(13.44px at calc(100% + 10.8px) 50%, #0000 99%, #000 101%) calc(100% - 8px) 50% /
-          calc(51% - 8px) 32px repeat-y;                
-  -webkit-mask: var(--mask);
-  mask: var(--mask);*/
   border-radius: 45% 45% 5% 5%;
-  --mask:
-  radial-gradient(4.00px at 50% calc(100% - 4.00px),#000 99%,#0000 101%) calc(50% - 8px) 0/16px 100%,
-  radial-gradient(4.00px at 50% calc(100% + 0.00px),#0000 99%,#000 101%) 50% calc(100% - 4px)/16px 100% repeat-x;
+  --mask: radial-gradient(4px at 50% calc(100% - 4px), #000 99%, #0000 101%) calc(50% - 8px) 0/16px 100%,
+      radial-gradient(4px at 50% calc(100% + 0px), #0000 99%, #000 101%) 50% calc(100% - 4px) / 16px 100%
+          repeat-x;
   -webkit-mask: var(--mask);
   mask: var(--mask);
 }
@@ -368,11 +334,6 @@ body {
 .cardPromociones div:hover {
   border: 0.5rem solid chocolate;
 }
-.cardPromociones div:hover p {
-  /*border-left-width: thin solid black; 
-  border-right-width: thin solid black;;
-  border-top-width: thin solid black;*/
-}
 .cardPromociones div:hover p span {
   border-radius: 50%;
   display: inline;
@@ -384,7 +345,7 @@ body {
 /*-----mainsabores----*/
 .h1Sabores {
   margin: 2rem 0 3rem 1rem;
-  -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+  -webkit-animation: heartbeat 1.5s 3s ease-in-out infinite both;
   animation: heartbeat 1.5s ease-in-out infinite both;
 }
 
@@ -476,9 +437,10 @@ body {
   margin: 5% 1% 10% 1%;
   padding: 1%;
   /*11px*/
-  --mask: radial-gradient(12.83px at 50% calc(100% - 17.6px), #000 99%, #0000 101%) calc(50% - 22px) 0/44px 100%,
-      radial-gradient(12.83px at 50% calc(100% + 6.6px), #0000 99%, #000 101%) 50% calc(100% - 11px) / 44px 100%
-          repeat-x;
+  --mask: radial-gradient(12.83px at 50% calc(100% - 17.6px), #000 99%, #0000 101%) calc(50% - 22px) 0/44px
+                  100%,
+          radial-gradient(12.83px at 50% calc(100% + 6.6px), #0000 99%, #000 101%) 50% calc(100% - 11px) /
+                  44px 100% repeat-x;
   -webkit-mask: var(--mask);
   mask: var(--mask);
   border-radius: 100px 100% 10% 10%/40% 700px 50% 10%;
@@ -501,6 +463,110 @@ body {
 }
 
 /*-----mainproductos----*/
+.h1Productos {
+  margin: 0 0 0 0.5rem;
+  -webkit-animation: bounce-top 2s 0.5s both;
+  animation: bounce-top 2s 0.5s both;
+}
+
+@-webkit-keyframes bounce-top {
+  0% {
+    -webkit-transform: translateY(-45px);
+    transform: translateY(-45px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 1;
+  }
+  24% {
+    opacity: 1;
+  }
+  40% {
+    -webkit-transform: translateY(-24px);
+    transform: translateY(-24px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  65% {
+    -webkit-transform: translateY(-12px);
+    transform: translateY(-12px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  82% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  93% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  25%, 55%, 75%, 87% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+}
+@keyframes bounce-top {
+  0% {
+    -webkit-transform: translateY(-45px);
+    transform: translateY(-45px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 1;
+  }
+  24% {
+    opacity: 1;
+  }
+  40% {
+    -webkit-transform: translateY(-24px);
+    transform: translateY(-24px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  65% {
+    -webkit-transform: translateY(-12px);
+    transform: translateY(-12px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  82% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  93% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  25%, 55%, 75%, 87% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+}
 ol,
 ul,
 li {
@@ -540,7 +606,7 @@ li {
 }
 .paraelegir .ul__paralegir li p {
   font-size: 18px;
-  padding: 0 0 0 0;
+  padding: 0;
   margin: 0;
 }
 .paraelegir:hover h2 {
@@ -1214,8 +1280,8 @@ li {
   text-align: left;
   /*15 px*/
   --mask: radial-gradient(17.49px at 50% calc(100% - 24px), #000 99%, #0000 101%) calc(50% - 30px) 0/60px 100%,
-      radial-gradient(17.49px at 50% calc(100% + 9px), #0000 99%, #000 101%) 50% calc(100% - 15px) / 60px 100%
-          repeat-x;
+    radial-gradient(17.49px at 50% calc(100% + 9px), #0000 99%, #000 101%) 50% calc(100% - 15px) / 60px 100%
+      repeat-x;
   -webkit-mask: var(--mask);
   mask: var(--mask);
   border-radius: 1rem 1rem 0 0;
@@ -1278,9 +1344,9 @@ li {
           align-items: center;
   text-align: center;
   background-color: rgb(210, 105, 30);
-  --mask:
-  radial-gradient(36.15px at 50% calc(100% - 49.60px),#000 99%,#0000 101%) calc(50% - 62px) 0/124px 100%,
-  radial-gradient(36.15px at 50% calc(100% + 18.60px),#0000 99%,#000 101%) 50% calc(100% - 31px)/124px 100% repeat-x;
+  --mask: radial-gradient(36.15px at 50% calc(100% - 49.6px), #000 99%, #0000 101%) calc(50% - 62px) 0/124px 100%,
+      radial-gradient(36.15px at 50% calc(100% + 18.6px), #0000 99%, #000 101%) 50% calc(100% - 31px) / 124px 100%
+          repeat-x;
   -webkit-mask: var(--mask);
   mask: var(--mask);
   padding: 0 0 3rem 0;
@@ -1479,6 +1545,7 @@ footer .divDirecciones ul .locales:hover {
     margin: 0;
   }
 }
+/*-----min 445----*/
 @media screen and (max-width: 445px) {
   .indexNuevo .section__indexNuevo .p__indexNuevo {
     padding: 1rem;
@@ -1557,7 +1624,7 @@ footer .divDirecciones ul .locales:hover {
   }
   body .productosGeneral .productos2 .productos2__div .productos2__div__card h3 {
     width: auto;
-    padding: 0rem 0 0rem 0rem;
+    padding: 0;
     margin: auto;
   }
   body .productosGeneral .productos3 .productos3__div .productos3__div__card .productos3__div__card_p_over {

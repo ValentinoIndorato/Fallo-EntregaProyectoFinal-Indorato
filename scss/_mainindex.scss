@@ -1,5 +1,4 @@
 .indexNuevo {
-    
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
@@ -20,13 +19,7 @@
             height: 50%;
             font-size: auto;
             text-align: center;
-            /*--mask:
-    radial-gradient(1.80rem at 1rem 2.50rem,#000 99%,#0000 101%) calc(50% - 2rem) 0/4rem 51% repeat-x,
-    radial-gradient(1.80rem at 1rem -1.5rem,#0000 99%,#000 101%) 50% 1rem/4rem calc(51% - 1rem) repeat-x,
-    radial-gradient(1.80rem at 1rem calc(100% - 2.50rem),#000 99%,#0000 101%) calc(50% - 2rem) 100%/4rem 51% repeat-x,
-    radial-gradient(1.80rem at 1rem calc(100% + 1.50rem),#0000 99%,#000 101%) 50% calc(100% - 1rem)/4rem calc(51% - 1rem) repeat-x;
-  -webkit-mask: var(--mask);
-          mask: var(--mask);*/
+            
             /*10px*/
             --mask: radial-gradient(17.49px at 50% calc(100% - 24px), #000 99%, #0000 101%) calc(50% - 30px) 0/60px 100%,
                 radial-gradient(17.49px at 50% calc(100% + 9px), #0000 99%, #000 101%) 50% calc(100% - 15px) / 60px 100%
@@ -38,7 +31,7 @@
             }
 
             a {
-                padding: 0 ;
+                padding: 0;
                 font-size: clamp(1.8rem, 3.5vw, 2rem);
                 text-decoration: none;
             }
@@ -46,22 +39,13 @@
         .h1__g {
             background-color: aqua;
             padding: 0 1rem 0 1rem;
-            /*--mask: radial-gradient(13.44px at 18.8px 50%, #000 99%, #0000 101%) 0 calc(50% - 16px) / 51% 32px repeat-y,
-                radial-gradient(13.44px at -10.8px 50%, #0000 99%, #000 101%) 8px 50% / calc(51% - 8px) 32px repeat-y,
-                radial-gradient(13.44px at calc(100% - 18.8px) 50%, #000 99%, #0000 101%) 100% calc(50% - 16px) / 51%
-                    32px repeat-y,
-                radial-gradient(13.44px at calc(100% + 10.8px) 50%, #0000 99%, #000 101%) calc(100% - 8px) 50% /
-                    calc(51% - 8px) 32px repeat-y;                
+            border-radius: 45% 45% 5% 5%;
+            --mask: radial-gradient(4px at 50% calc(100% - 4px), #000 99%, #0000 101%) calc(50% - 8px) 0/16px 100%,
+                radial-gradient(4px at 50% calc(100% + 0px), #0000 99%, #000 101%) 50% calc(100% - 4px) / 16px 100%
+                    repeat-x;
             -webkit-mask: var(--mask);
-            mask: var(--mask);*/
-            border-radius: 45% 45%  5% 5%;
-            --mask:
-    radial-gradient(4.00px at 50% calc(100% - 4.00px),#000 99%,#0000 101%) calc(50% - 8px) 0/16px 100%,
-    radial-gradient(4.00px at 50% calc(100% + 0.00px),#0000 99%,#000 101%) 50% calc(100% - 4px)/16px 100% repeat-x;
-  -webkit-mask: var(--mask);
-          mask: var(--mask);
-          
-        
+            mask: var(--mask);
+
             a {
                 font-size: 50px;
                 text-decoration: none;

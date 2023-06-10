@@ -2,7 +2,7 @@
 @media screen and (max-width: 426px) {
     body {
         background-color: rgb(255, 251, 130);
-        
+
         .indexNuevo {
             .section__indexNuevo {
                 .p__indexNuevo {
@@ -80,6 +80,7 @@
         }
     }
 }
+/*-----min 445----*/
 @media screen and (max-width: 445px) {
     .indexNuevo {
         .section__indexNuevo {
@@ -93,7 +94,7 @@
                     justify-content: space-evenly;
                 }
             }
-            
+
         }
     }
 }
@@ -164,7 +165,7 @@
                         }
                         h3 {
                             width: auto;
-                            padding: 0rem 0 0rem 0rem;
+                            padding: 0 ;
                             margin: auto;
                         }
                     }
