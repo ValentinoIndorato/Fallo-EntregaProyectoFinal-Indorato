@@ -4,7 +4,7 @@
     align-items: center;
     flex-wrap: wrap;
 
-    section {
+    section { 
         width: 16rem;
         height: 17rem;
         background-color: rgb(210, 105, 30);
@@ -16,7 +16,8 @@
                 repeat-x;
         -webkit-mask: var(--mask);
         mask: var(--mask);
-        border-radius: 100px 100% 10% 10% / 40% 700px 50% 10%;
+        border-radius: 100px 100% 10% 10% / 40% 700px 50% 10%;      
+        /*UL SABORES-------*/
         .ul--sabores {
             font-weight: 700;
             padding: 0 0 1rem 0;
@@ -29,7 +30,8 @@
         &:hover{
         
         h2{color: rgb(253, 245, 2);
-            text-decoration: underline;}
+            text-decoration: underline;
+            text-decoration-style: wavy;}
         
         }
     }

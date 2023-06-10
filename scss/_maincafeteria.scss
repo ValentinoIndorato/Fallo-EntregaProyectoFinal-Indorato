@@ -1,29 +1,65 @@
-.caferiaCuerpo{margin: 3rem 0 3rem 0; .cafeteria {
-    justify-content: center;
-    text-align: center; margin: 0 0 6rem 0;
-    .ul--cafeteria {
-        
-        background-color: rgb(210, 105, 30); 
-        display: flex;
-        flex-wrap: wrap;        
-        text-align: left;
-        /*15 px*/--mask:
-        radial-gradient(17.49px at 50% calc(100% - 24.00px),#000 99%,#0000 101%) calc(50% - 30px) 0/60px 100%,
-        radial-gradient(17.49px at 50% calc(100% + 9.00px),#0000 99%,#000 101%) 50% calc(100% - 15px)/60px 100% repeat-x;
-      -webkit-mask: var(--mask);
-              mask: var(--mask);
-              border-radius: 1rem 1rem 0 0 ;
-              padding: 0 0 2rem 0;
-              margin: 1rem;
-        .li--cafeteria {            
-            width: 100%;
+.caferiaCuerpo {
+    margin: 3rem 0 3rem 0;
+    .cafeteria {
+        justify-content: center;
+        text-align: center;
+        margin: 0 0 6rem 0;
+        h2{font-size: 40px;} 
+        .ul--cafeteria {
+            background-color: rgb(210, 105, 30);
             display: flex;
-            justify-content: space-between;
-            margin: 0 1rem 0 1rem;
-        }  
-        p{width: auto;}      
+            flex-wrap: wrap;
+            text-align: left;
+            /*15 px*/
+            --mask: radial-gradient(17.49px at 50% calc(100% - 24px), #000 99%, #0000 101%) calc(50% - 30px) 0/60px 100%,
+                radial-gradient(17.49px at 50% calc(100% + 9px), #0000 99%, #000 101%) 50% calc(100% - 15px) / 60px 100%
+                    repeat-x;
+            -webkit-mask: var(--mask);
+            mask: var(--mask);
+            border-radius: 1rem 1rem 0 0;
+            padding: 0 0 2rem 0;
+            margin: 1rem;
+            .li--cafeteria {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                margin: 0 1rem 0 1rem;
+            }
+            p {
+                width: auto;
+            }
+           
+        }        
+    &:hover{ h2{
+        text-decoration: underline;
+        text-decoration-style: wavy;
+        }}
     }
 }
+.texto-hover:hover {
+    color: rgb(253, 245, 2);
+    
+    span {
+        color: black;
+        text-decoration: underline;
+        text-decoration-style: wavy;
+        background-size: 0 0.1em, 100% 0.1em;
+    }
+    div {
+        p {
+            border-radius: 50%;
+            border-bottom-width: thin;
+            border-bottom-style: solid;
+            border-bottom-color: rgb(253, 245, 2);
+        }
+    }
+
+    .precio-hover{margin: 0 0 2.2rem 0;
+        border-radius: 50%;
+        border-bottom-width: thin;
+        border-bottom-style: solid;
+        border-bottom-color: rgb(253, 245, 2);}
+        .li--precio{ border-radius: 50%;  border-bottom-width: thin;
+            border-bottom-style: solid;
+            border-bottom-color: rgb(253, 245, 2);}
 }
-.texto-hover:hover,
-.texto-hove:focus { color: rgb(253, 245, 2); span{ transition: 6s; text-decoration: underline; color:black ; text-decoration: underline; background-size: 0 0.1em, 100% 0.1em;}}

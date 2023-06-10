@@ -24,9 +24,10 @@ body {
               radial-gradient(27.99px at 50% calc(100% + 14.40px),#0000 99%,#000 101%) 50% calc(100% - 24px)/96px 100% repeat-x;
             -webkit-mask: var(--mask);
                     mask: var(--mask);*/
+  /*31px*/
   --mask: radial-gradient(36.15px at 50% calc(100% - 49.6px), #000 99%, #0000 101%) calc(50% - 62px) 0/124px 100%,
-      radial-gradient(36.15px at 50% calc(100% + 18.6px), #0000 99%, #000 101%) 50% calc(100% - 31px) / 124px 100%
-          repeat-x;
+  radial-gradient(36.15px at 50% calc(100% + 18.6px), #0000 99%, #000 101%) 50% calc(100% - 31px) / 124px 100%
+      repeat-x;
   -webkit-mask: var(--mask);
   mask: var(--mask);
   padding: 0 0 3rem 0;
@@ -226,6 +227,7 @@ body {
   -webkit-mask: var(--mask);
   mask: var(--mask);
   border-radius: 100px 100% 10% 10%/40% 700px 50% 10%;
+  /*UL SABORES-------*/
   -webkit-transition: 0.5s;
   transition: 0.5s;
   /*----Hover----*/
@@ -240,6 +242,7 @@ body {
 .sabores section:hover h2 {
   color: rgb(253, 245, 2);
   text-decoration: underline;
+  text-decoration-style: wavy;
 }
 
 /*-----mainproductos----*/
@@ -252,9 +255,13 @@ li {
   font-size: 18px;
 }
 
+/*PARA ELEGIR---------------------------------*/
 .paraelegir {
   text-align: center;
-  margin: 1rem 0 1rem 0;
+  margin: 5rem 0 1rem 0;
+}
+.paraelegir h2 {
+  font-size: 40px;
 }
 .paraelegir .ul__paralegir {
   display: grid;
@@ -281,8 +288,12 @@ li {
   padding: 0 0 0 0;
   margin: 0;
 }
+.paraelegir:hover h2 {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
 
-/*------ grid area----*/
+/*GRID AREA---------------------------------*/
 .bochagrid {
   grid-area: bochagrid;
   display: -webkit-box;
@@ -298,6 +309,18 @@ li {
 }
 .bochagrid div {
   margin: 1rem;
+}
+.bochagrid div .precio-hover:hover {
+  border-radius: 50%;
+  border-bottom-width: thin;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+}
+.bochagrid:hover div .precio-hover {
+  border-radius: 50%;
+  border-bottom-width: thin;
+  border-bottom-style: solid;
+  border-bottom-color: black;
 }
 
 .dosbochasgrid {
@@ -319,6 +342,18 @@ li {
 .dosbochasgrid div {
   margin: 1rem;
 }
+.dosbochasgrid div .precio-hover:hover {
+  border-radius: 50%;
+  border-bottom-width: thin;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+}
+.dosbochasgrid:hover div .precio-hover {
+  border-radius: 50%;
+  border-bottom-width: thin;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+}
 
 .tresbochasgrid {
   grid-area: tresbochasgrid;
@@ -335,6 +370,18 @@ li {
 }
 .tresbochasgrid div {
   margin: 1rem;
+}
+.tresbochasgrid div .precio-hover:hover {
+  border-radius: 50%;
+  border-bottom-width: thin;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+}
+.tresbochasgrid:hover div .precio-hover {
+  border-radius: 50%;
+  border-bottom-width: thin;
+  border-bottom-style: solid;
+  border-bottom-color: black;
 }
 
 .barquillogrid {
@@ -355,6 +402,18 @@ li {
   text-align: left;
   margin: 1rem;
 }
+.barquillogrid div .precio-hover:hover {
+  border-radius: 50%;
+  border-bottom-width: thin;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+}
+.barquillogrid:hover div .precio-hover {
+  border-radius: 50%;
+  border-bottom-width: thin;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+}
 
 .pinitogrid {
   grid-area: pinitogrid;
@@ -374,6 +433,18 @@ li {
   text-align: left;
   margin: 1rem 1rem 1rem 2.5rem;
 }
+.pinitogrid div .precio-hover:hover {
+  border-radius: 50%;
+  border-bottom-width: thin;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+}
+.pinitogrid:hover div .precio-hover {
+  border-radius: 50%;
+  border-bottom-width: thin;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+}
 
 .cuartokgrid {
   grid-area: cuartokgrid;
@@ -390,6 +461,18 @@ li {
 }
 .cuartokgrid div {
   margin: 1rem;
+}
+.cuartokgrid div .precio-hover:hover {
+  border-radius: 50%;
+  border-bottom-width: thin;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+}
+.cuartokgrid:hover div .precio-hover {
+  border-radius: 50%;
+  border-bottom-width: thin;
+  border-bottom-style: solid;
+  border-bottom-color: black;
 }
 
 .mediokgrid {
@@ -408,6 +491,18 @@ li {
 .mediokgrid div {
   margin: 1rem;
 }
+.mediokgrid div .precio-hover:hover {
+  border-radius: 50%;
+  border-bottom-width: thin;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+}
+.mediokgrid:hover div .precio-hover {
+  border-radius: 50%;
+  border-bottom-width: thin;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+}
 
 .kgrid {
   grid-area: kgrid;
@@ -425,7 +520,20 @@ li {
 .kgrid div {
   margin: 1rem;
 }
+.kgrid div .precio-hover:hover {
+  border-radius: 50%;
+  border-bottom-width: thin;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+}
+.kgrid:hover div .precio-hover {
+  border-radius: 50%;
+  border-bottom-width: thin;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+}
 
+/*BAÑO CHOCOLATE---------------------------------*/
 .bañochoco {
   grid-area: bañochoco;
   display: -webkit-box;
@@ -445,11 +553,16 @@ li {
   padding: 0;
 }
 
+/*POSTRES---------------------------------*/
 .postres {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+  margin: 5rem 0 1rem 0;
+}
+.postres h2 {
+  font-size: 40px;
 }
 .postres .ul__postres {
   background-color: rgb(210, 105, 30);
@@ -493,16 +606,23 @@ li {
 }
 .postres .ul__postres .li__postres .div-precios p {
   width: auto;
+  margin: 0 0 2.2rem 0;
 }
 .postres .ul__postres .li__postres .div-precios .p__preciounidad {
-  margin: 0 0.5rem 0 0;
+  margin: 0 0.5rem 2.2rem 0;
+}
+.postres:hover h2 {
+  text-decoration: underline;
+  text-decoration-style: wavy;
 }
 
+/*CARTELES UNIDADES---------------------------------*/
 .unidad {
   position: absolute;
   top: auto;
   right: 72px;
   background-color: aliceblue;
+  margin: 6rem 0 0 0;
 }
 
 .seisunidades {
@@ -511,10 +631,16 @@ li {
   right: 5px;
   background-color: aliceblue;
   line-height: 1.2;
+  margin: 4.9rem 0 1rem 0;
 }
 
+/*FAMILIARES---------------------------------*/
 .familiares {
   text-align: center;
+  margin: 5rem 0 1rem 0;
+}
+.familiares h2 {
+  font-size: 40px;
 }
 .familiares .ul__familiares {
   background-color: rgb(210, 105, 30);
@@ -536,8 +662,6 @@ li {
   -webkit-mask: var(--mask);
   mask: var(--mask);
   border-radius: 1rem 1rem 0 0;
-  border: 5px solid #010101;
-  border-style: dotted;
 }
 .familiares .ul__familiares .li__familiares {
   padding: 0;
@@ -555,12 +679,25 @@ li {
 .familiares .ul__familiares .li__familiares p {
   width: auto;
 }
+.familiares .ul__familiares .li__familiares .precio-hover {
+  margin: 0 0 3.7rem 0;
+  padding: 0 0 0.5rem 0;
+}
+.familiares:hover h2 {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
 
+/*TORTAS---------------------------------*/
 .tortas {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+  margin: 5rem 0 1rem 0;
+}
+.tortas h2 {
+  font-size: 40px;
 }
 .tortas .ul__tortas {
   background-color: rgb(210, 105, 30);
@@ -588,15 +725,28 @@ li {
 .tortas .ul__tortas .li__tortas p {
   width: auto;
 }
+.tortas .ul__tortas .li__tortas .precio-hover {
+  margin: 0 0 3.7rem 0;
+  padding: 0 0 0.5rem 0;
+}
+.tortas:hover h2 {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
 
+/*ANTOJOS---------------------------------*/
 .antojos {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+  margin: 5rem 0 1rem 0;
+}
+.antojos h2 {
+  font-size: 40px;
 }
 .antojos .ul__antojos {
-  background-color: rgb(210, 105, 30);
+  background-color: #d2691e;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -638,27 +788,46 @@ li {
   display: -ms-flexbox;
   display: flex;
 }
+.antojos .ul__antojos .li__antojos .precio-hover {
+  margin: 0 0 2rem 0;
+  padding: 0 0 0.5rem 0;
+}
+.antojos:hover h2 {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
 
+/*CARTELES UNIDADES---------------------------------*/
 .unidadantojo {
   position: absolute;
   top: auto;
   right: 72px;
-  background-color: aliceblue;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(46%, rgb(240, 248, 255)), to(rgba(240, 248, 255, 0.0005252101)));
+  background: linear-gradient(0deg, rgb(240, 248, 255) 46%, rgba(240, 248, 255, 0.0005252101) 100%);
+  padding: 0.5rem 0 0.51rem 0;
+  margin: 5.3rem 0 0 0;
 }
 
 .unidadesantojo {
   position: absolute;
   top: auto;
   right: 5px;
-  background-color: aliceblue;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(5%, rgb(240, 248, 255)), color-stop(93%, rgba(240, 248, 255, 0.7260154062)));
+  background: linear-gradient(0deg, rgb(240, 248, 255) 5%, rgba(240, 248, 255, 0.7260154062) 93%);
   line-height: 1.2;
+  margin: 5.3rem 0 0 0;
 }
 
+/*COPAS---------------------------------*/
 .copas {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+  margin: 5rem 0 7rem 0;
+}
+.copas h2 {
+  font-size: 40px;
 }
 .copas .ul__copas {
   background-color: rgb(210, 105, 30);
@@ -695,12 +864,13 @@ li {
 .copas .ul__copas .li__copas p {
   width: auto;
 }
-
-.texto-hover:hover {
-  color: rgb(253, 245, 2);
+.copas .ul__copas .li__copas .precio-hover {
+  margin: 0 0 1rem 0;
+  padding: 0 0 0.5rem 0;
 }
-.texto-hover:hover span {
-  color: black;
+.copas:hover h2 {
+  text-decoration: underline;
+  text-decoration-style: wavy;
 }
 
 /*-----maincafeteria----*/
@@ -714,6 +884,9 @@ li {
   text-align: center;
   margin: 0 0 6rem 0;
 }
+.caferiaCuerpo .cafeteria h2 {
+  font-size: 40px;
+}
 .caferiaCuerpo .cafeteria .ul--cafeteria {
   background-color: rgb(210, 105, 30);
   display: -webkit-box;
@@ -723,9 +896,9 @@ li {
       flex-wrap: wrap;
   text-align: left;
   /*15 px*/
-  --mask:
-  radial-gradient(17.49px at 50% calc(100% - 24.00px),#000 99%,#0000 101%) calc(50% - 30px) 0/60px 100%,
-  radial-gradient(17.49px at 50% calc(100% + 9.00px),#0000 99%,#000 101%) 50% calc(100% - 15px)/60px 100% repeat-x;
+  --mask: radial-gradient(17.49px at 50% calc(100% - 24px), #000 99%, #0000 101%) calc(50% - 30px) 0/60px 100%,
+      radial-gradient(17.49px at 50% calc(100% + 9px), #0000 99%, #000 101%) 50% calc(100% - 15px) / 60px 100%
+          repeat-x;
   -webkit-mask: var(--mask);
   mask: var(--mask);
   border-radius: 1rem 1rem 0 0;
@@ -745,19 +918,38 @@ li {
 .caferiaCuerpo .cafeteria .ul--cafeteria p {
   width: auto;
 }
+.caferiaCuerpo .cafeteria:hover h2 {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
 
-.texto-hover:hover,
-.texto-hove:focus {
+.texto-hover:hover {
   color: rgb(253, 245, 2);
 }
-.texto-hover:hover span,
-.texto-hove:focus span {
-  -webkit-transition: 6s;
-  transition: 6s;
-  text-decoration: underline;
+.texto-hover:hover span {
   color: black;
   text-decoration: underline;
+  text-decoration-style: wavy;
   background-size: 0 0.1em, 100% 0.1em;
+}
+.texto-hover:hover div p {
+  border-radius: 50%;
+  border-bottom-width: thin;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(253, 245, 2);
+}
+.texto-hover:hover .precio-hover {
+  margin: 0 0 2.2rem 0;
+  border-radius: 50%;
+  border-bottom-width: thin;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(253, 245, 2);
+}
+.texto-hover:hover .li--precio {
+  border-radius: 50%;
+  border-bottom-width: thin;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(253, 245, 2);
 }
 
 /*-----_maindelivery----*/
@@ -819,6 +1011,14 @@ footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding: 3rem 0 0 0;
+  --mask: radial-gradient(36.15px at 50% 49.6px, #000 99%, #0000 101%) calc(50% - 62px) 0/124px 100%,
+      radial-gradient(36.15px at 50% -18.6px, #0000 99%, #000 101%) 50% 31px/124px 100% repeat-x;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+}
+footer .divInformacion {
+  margin: 0 0 0 0.5rem;
 }
 footer .divInformacion h3 {
   color: rgb(253, 245, 2);
@@ -830,6 +1030,7 @@ footer .divInformacion a {
   color: rgb(253, 245, 2);
 }
 footer .divDirecciones {
+  margin: 0 0.5rem 0 0;
   text-align: right;
 }
 footer .divDirecciones h3 {
@@ -842,13 +1043,20 @@ footer .divDirecciones h3 a {
 footer .divDirecciones ul {
   list-style-type: none;
   margin: 0;
+  text-align: right;
 }
 footer .divDirecciones ul li:hover {
-  color: rgb(253, 245, 2);
+  color: rgb(252, 244, 3);
+  text-align: left;
+  list-style: url(../assets/img/barquilloHover_listStyle.svg);
 }
 footer .divDirecciones ul li a {
   text-decoration: none;
   color: rgb(253, 245, 2);
+}
+footer .divDirecciones ul .locales {
+  text-align: left;
+  list-style: url(../assets/img/barquillo_listStyle.svg);
 }
 
 /*-----_404----*/
