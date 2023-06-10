@@ -55,6 +55,73 @@ body {
   font-weight: 400;
 }
 
+/*-----_slider----*/
+.posicionSlider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin: 3rem 1rem 0 0;
+}
+.posicionSlider .slider {
+  width: 40vw;
+  height: auto;
+  overflow: hidden;
+}
+.posicionSlider .slider .slide-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-animation: scroll 40s linear infinite;
+          animation: scroll 40s linear infinite;
+  width: 2800px;
+}
+.posicionSlider .slider .slide-track .slide {
+  width: auto;
+  margin: 0 0.5rem 0 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.posicionSlider .slider .slide-track .slide img {
+  margin: 0 0.4rem 2rem 0;
+}
+.posicionSlider .slider .slide-track .slide p:hover {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+.posicionSlider .slider .slide-track .slide a {
+  color: black;
+  text-decoration: none;
+}
+.posicionSlider .slider .slide-track .slide a:hover {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+
+@-webkit-keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-1400px);
+            transform: translateX(-1400px);
+  }
+}
+
+@keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-1400px);
+            transform: translateX(-1400px);
+  }
+}
 /*-----_mainindex----*/
 .indexNuevo {
   height: 100vh;
@@ -218,7 +285,7 @@ body {
   width: 16rem;
   height: 17rem;
   background-color: rgb(210, 105, 30);
-  margin: 10% 1% 10% 1%;
+  margin: 5% 1% 10% 1%;
   padding: 1%;
   /*11px*/
   --mask: radial-gradient(12.83px at 50% calc(100% - 17.6px), #000 99%, #0000 101%) calc(50% - 22px) 0/44px 100%,
