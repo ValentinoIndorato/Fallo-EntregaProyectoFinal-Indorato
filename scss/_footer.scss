@@ -37,10 +37,7 @@ footer {
             margin: 0;
             text-align: right;
             li { 
-                &:hover {
-                    color: rgb(252, 244, 3);
-                    text-align: left;list-style:url(../assets/img/barquilloHover_listStyle.svg);
-                }
+                
                  a {
                     text-decoration: none;
                     color: rgb(253, 245, 2);
@@ -48,7 +45,10 @@ footer {
                 }
                 
             }
-            .locales{text-align: left;list-style:url(../assets/img/barquillo_listStyle.svg);}
+            .locales{text-align: left;list-style:url(../assets/img/barquillo_listStyle.svg);&:hover {
+                color: rgb(252, 244, 3);
+                text-align: left;list-style:url(../assets/img/barquilloHover_listStyle.svg);
+            }}
         }
     }
 }

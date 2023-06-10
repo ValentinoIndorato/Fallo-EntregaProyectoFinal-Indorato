@@ -942,7 +942,7 @@ li {
 
 /*-----maincafeteria----*/
 .caferiaCuerpo {
-  margin: 9rem 0 9rem 0;
+  margin: 4rem 0 9rem 0;
 }
 .caferiaCuerpo .cafeteria {
   -webkit-box-pack: center;
@@ -1022,7 +1022,7 @@ li {
 /*-----_maindelivery----*/
 .DeliveryMain {
   padding: auto;
-  margin: 10%;
+  margin: 5%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1037,6 +1037,7 @@ li {
   border-radius: 100px 100px 0 0;
 }
 .DeliveryMain h2 {
+  font-size: 50px;
   color: rgb(253, 245, 2);
   padding: 2rem 0 0 0;
 }
@@ -1112,11 +1113,6 @@ footer .divDirecciones ul {
   margin: 0;
   text-align: right;
 }
-footer .divDirecciones ul li:hover {
-  color: rgb(252, 244, 3);
-  text-align: left;
-  list-style: url(../assets/img/barquilloHover_listStyle.svg);
-}
 footer .divDirecciones ul li a {
   text-decoration: none;
   color: rgb(253, 245, 2);
@@ -1124,6 +1120,11 @@ footer .divDirecciones ul li a {
 footer .divDirecciones ul .locales {
   text-align: left;
   list-style: url(../assets/img/barquillo_listStyle.svg);
+}
+footer .divDirecciones ul .locales:hover {
+  color: rgb(252, 244, 3);
+  text-align: left;
+  list-style: url(../assets/img/barquilloHover_listStyle.svg);
 }
 
 /*-----_404----*/
