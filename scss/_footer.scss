@@ -1,5 +1,5 @@
 footer {
-    background-color: rgb(210, 105, 30);
+    background-color: $color-marron;
     padding: 0rem 0.5rem;
     font-size: 18px;
     margin: 0;
@@ -13,13 +13,13 @@ footer {
     .divInformacion {
         margin: 0 0 0 0.5rem;
         h3 {
-            color: rgb(253, 245, 2);
+            color: $color-amarillo;
             margin: 0;
             text-decoration: none;
         }
         a {
             text-decoration: none;
-            color: rgb(253, 245, 2);
+            color: $color-amarillo;
         }
     }
     .divDirecciones {
@@ -29,7 +29,7 @@ footer {
             margin: 0;
             a {
                 text-decoration: none;
-                color: rgb(253, 245, 2);
+                color: $color-amarillo;
             }
         }
         ul {
@@ -39,14 +39,14 @@ footer {
             li {
                 a {
                     text-decoration: none;
-                    color: rgb(253, 245, 2);
+                    color: $color-amarillo;
                 }
             }
             .locales {
                 text-align: left;
                 list-style: url(../assets/img/barquillo_listStyle.svg);
                 &:hover {
-                    color: rgb(252, 244, 3);
+                    color: $color-amarillo;
                     text-align: left;
                     list-style: url(../assets/img/barquilloHover_listStyle.svg);
                 }

@@ -386,7 +386,7 @@ li {
         font-size: 40px;
     }
     .ul__postres {
-        background-color: rgb(210, 105, 30);
+        background-color: $color-marron;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
@@ -405,7 +405,7 @@ li {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
-            background-color: rgb(210, 105, 30);
+            background-color: $color-marron;
             margin: 0 1% 0 1%;
             .div-precios {
                 display: flex;
@@ -451,7 +451,7 @@ li {
         font-size: 40px;
     }
     .ul__familiares {
-        background-color: rgb(210, 105, 30);
+        background-color: $color-marron;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -497,7 +497,7 @@ li {
         font-size: 40px;
     }
     .ul__tortas {
-        background-color: rgb(210, 105, 30);
+        background-color: $color-marron;
         margin: 1rem;
         text-align: left;
         padding: 0 0 1rem 0;
@@ -537,7 +537,7 @@ li {
         font-size: 40px;
     }
     .ul__antojos {
-        background-color: #d2691e;
+        background-color: $color-marron;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
@@ -605,7 +605,7 @@ li {
         font-size: 40px;
     }
     .ul__copas {
-        background-color: rgb(210, 105, 30);
+        background-color: $color-marron;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;

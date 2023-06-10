@@ -6,6 +6,7 @@ body {
   font-size: 100%;
 }
 
+/*-----VARIABLES----*/
 /*-----Navbar----*/
 .navbarp {
   background-color: rgb(210, 105, 30);
@@ -175,9 +176,7 @@ body {
 .indexNuevo .section__indexNuevo .h1__g:hover {
   -webkit-transform: scale(1.5);
           transform: scale(1.5);
-}
-
-/*-----mainpromociones----*/
+} /*-----mainpromociones----*/
 .h1Promociones {
   margin: 5rem 0 0 1rem;
   -webkit-animation: bounce-in-fwd 2s 0.5s both;
@@ -322,7 +321,7 @@ body {
   width: 100%;
 }
 .cardPromociones div h2 {
-  color: chocolate;
+  color: rgb(210, 105, 30);
   margin: 0.5rem 0 0 0;
   display: inline;
 }
@@ -332,7 +331,7 @@ body {
   font-size: 18px;
 }
 .cardPromociones div:hover {
-  border: 0.5rem solid chocolate;
+  border: 0.5rem solid rgb(210, 105, 30);
 }
 .cardPromociones div:hover p span {
   border-radius: 50%;
@@ -1067,7 +1066,7 @@ li {
   font-size: 40px;
 }
 .antojos .ul__antojos {
-  background-color: #d2691e;
+  background-color: rgb(210, 105, 30);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1438,7 +1437,7 @@ footer .divDirecciones ul .locales {
   list-style: url(../assets/img/barquillo_listStyle.svg);
 }
 footer .divDirecciones ul .locales:hover {
-  color: rgb(252, 244, 3);
+  color: rgb(253, 245, 2);
   text-align: left;
   list-style: url(../assets/img/barquilloHover_listStyle.svg);
 }

@@ -4,7 +4,8 @@ body {
     font-weight: 600;
     font-size: 100%;
 }
-
+/*-----VARIABLES----*/
+@import "_variables.scss";
 /*-----Navbar----*/
 .navbarp {
     background-color: rgb(210, 105, 30);

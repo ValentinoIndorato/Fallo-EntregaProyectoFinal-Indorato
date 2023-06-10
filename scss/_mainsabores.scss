@@ -81,7 +81,7 @@
         section {
                 width: 16rem;
                 height: 17rem;
-                background-color: rgb(210, 105, 30);
+                background-color: $color-marron;
                 margin: 5% 1% 10% 1%;
                 padding: 1%;
                 /*11px*/
@@ -97,7 +97,7 @@
                         font-weight: 700;
                         padding: 0 0 1rem 0;
                         li:hover {
-                                color: rgb(253, 245, 2);
+                                color: $color-amarillo;
                         }
                 }
 
@@ -106,7 +106,7 @@
                 /*----Hover----*/
                 &:hover {
                         h2 {
-                                color: rgb(253, 245, 2);
+                                color: $color-amarillo;
                                 text-decoration: underline;
                                 text-decoration-style: wavy;
                         }
